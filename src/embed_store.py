@@ -1,5 +1,5 @@
 from sentence_transformers import SentenceTransformer
-from chromadb import Client
+from chromadb import PersistentClient
 from chromadb.config import Settings
 from pathlib import Path
 import json
@@ -18,10 +18,7 @@ print(f'loaded {len(chunks)} chunks from {CHUNKS_FILE}')
 
 model =SentenceTransformer('all-MiniLM-L6-v2')
 
-client = Client(Settings(
-    persist_directory=str(VECTOR_DB_DIR),
-    anonymized_telemetry=False
-))
+client = PersistentClient(path=str(VECTOR_DB_DIR))
 
 collection = client.get_or_create_collection('documents')
 
@@ -36,4 +33,6 @@ for chunk in chunks:
         }],
         embeddings=[emb]
     )
+print(" Reading DB from:", VECTOR_DB_DIR)
+print("Items in DB after insert:", collection.count())
 print(f"Stored {len(chunks)} chunks into ChromaDB at {VECTOR_DB_DIR}")
