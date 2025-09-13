@@ -27,9 +27,27 @@ knowbaset/
 ├── requirements.txt
 └── README.md
 ```
-## Step 1 Ingestion and Processing
+## Step 1 - Ingestion and Processing
 USe `ingest.py` to read `.txt` documents from the `data` folder and split them into small overlapping text chunks.
 ```
 cd src
 python ingest.py
+```
+## Step 2 — Embedding + Storage in a Vector Database
+
+In this step, we take all the text chunks created during the ingestion phase  
+and convert them into **embeddings** (dense numerical vectors that represent semantic meaning)  
+using the `all-MiniLM-L6-v2` model from :contentReference[oaicite:1]{index=1}.  
+
+Then, we store all these embeddings inside a local :contentReference[oaicite:2]{index=2} database.  
+This allows us to later perform **semantic search** and find the most relevant chunks  
+when a user asks a question.
+
+###  How it works
+```
+Chunks (text)
+⬇
+Embedding Model (Sentence Transformers)
+⬇
+Vector Database (ChromaDB)
 ```

@@ -1,8 +1,11 @@
+import json
 from pathlib import Path
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
 DATA_DIR = Path('../data')
+STORAGE_DIR = Path("../storage")
+STORAGE_DIR.mkdir(exist_ok=True)
 
 
 def load_documents():
@@ -72,6 +75,17 @@ def split_into_chunks(documents, chunk_size=500, chunk_overlap=50):
     return all_chunks
 
 
+
+def save_chunks(chunks, filename='chunks.json'):
+    '''
+    Saves the generated chunks into a Json file inside the storage folder.
+    '''
+    path = STORAGE_DIR/filename
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(chunks, f, ensure_ascii=False, indent =2)
+    print(f' Saved {len(chunks)} chunks into {path}')
+
+
 if __name__ == "__main__":
     documents = load_documents()
     print(f"Loaded {len(documents)} documents.")
@@ -79,3 +93,4 @@ if __name__ == "__main__":
     chunks = split_into_chunks(documents)
     print(f"Created {len(chunks)} chunks.")
     print("Example chunk:", chunks[0])
+    save_chunks(chunks)
