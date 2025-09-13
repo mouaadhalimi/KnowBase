@@ -51,3 +51,21 @@ Embedding Model (Sentence Transformers)
 ⬇
 Vector Database (ChromaDB)
 ```
+##  Step 3 — Semantic Search
+
+In this step, we connect to the existing vector database (created in Step 2)  
+and perform **semantic search** to find the most relevant text chunks  
+for any question provided by the user.
+
+This allows the system to retrieve meaningful context based on the **meaning** of the question,  
+not just keyword matches, using embeddings.
+###  How it works
+```
+User Question
+⬇
+Embedding Model (Sentence Transformers)
+⬇
+Query the Vector Database (ChromaDB)
+⬇
+Retrieve the most similar text chunks
+```
