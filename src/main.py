@@ -1,5 +1,6 @@
 from pathlib import Path
 import sys
+from src.pipeline.searcher import Searcher
 from src.pipeline.indexer import Indexer
 from src.core.Logger import LoggerManager
 from src.core.utils import FileManager
@@ -12,6 +13,8 @@ if __name__ == "__main__":
 
     files = FileManager(logger)
     config = files.load_config(Path("config/config.yaml"))
+
+
     stage = sys.argv[1] if len(sys.argv) > 1 else "ingest"
 
     if stage =="ingest":
@@ -22,5 +25,8 @@ if __name__ == "__main__":
         indexer = Indexer(config=config, file_manager=files, logger=logger)
         indexer.run()
 
+    elif stage == "search":
+        query = " ".join(sys.argv[2:]) or "What is HCL?"
+        Searcher(config, files, logger).run(query)
     else:
         logger.error(f"Unknown stage: {stage}")

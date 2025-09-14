@@ -22,8 +22,8 @@ stages:
       size: 3201
     - path: src/main.py
       hash: md5
-      md5: 1fed001a28a038614e0af5259644d255
-      size: 809
+      md5: 7b402b857eb30ef213d617407e5df358
+      size: 996
     - path: src/pipeline/ingestor.py
       hash: md5
       md5: 3b298cbb2540a7b5f305933e017e65dc
@@ -50,8 +50,8 @@ stages:
       size: 3201
     - path: src/main.py
       hash: md5
-      md5: 1fed001a28a038614e0af5259644d255
-      size: 809
+      md5: 7b402b857eb30ef213d617407e5df358
+      size: 996
     - path: src/pipeline/indexer.py
       hash: md5
       md5: 0be69e553b52e6fb5d901eb5a5d092b9
@@ -63,6 +63,34 @@ stages:
     outs:
     - path: storage/vector_db
       hash: md5
-      md5: 015e8710175d87c2114880a7760e333c.dir
+      md5: 3b5e5a4e66ef20ede5fb7b75187475aa.dir
+      size: 1237156
+      nfiles: 5
+  search:
+    cmd: python -m src.main search test
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: 7793680430d8300608b4f591fb65248a
+      size: 258
+    - path: src/core/logger.py
+      hash: md5
+      md5: 18904f790603b4d798c633bf318317fd
+      size: 1457
+    - path: src/core/utils.py
+      hash: md5
+      md5: d9cd50008594da004d5a1510514859e3
+      size: 3201
+    - path: src/main.py
+      hash: md5
+      md5: 7b402b857eb30ef213d617407e5df358
+      size: 996
+    - path: src/pipeline/searcher.py
+      hash: md5
+      md5: e68b78041bec5143ec78100a1d066a01
+      size: 2891
+    - path: storage/vector_db
+      hash: md5
+      md5: 943e65ad2559cdaf53bd75f42e7bbaa2.dir
       size: 1237156
       nfiles: 5

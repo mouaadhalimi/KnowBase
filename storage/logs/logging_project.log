@@ -155,3 +155,30 @@
 2025-09-14 16:01:02.176 | INFO     | src.pipeline.indexer:load_chunks:49 - Loaded 109 chunks from storage\chunks.json
 2025-09-14 16:01:04.356 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
 2025-09-14 16:01:04.356 | INFO     | src.pipeline.indexer:run:83 - Indexing finished
+2025-09-14 16:30:21.336 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-14 16:30:21.337 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-14 16:30:21.337 | INFO     | src.pipeline.ingestor:__init__:49 - Ingestor initialized.
+2025-09-14 16:30:21.337 | INFO     | src.pipeline.ingestor:run:204 - Starting ingestion...
+2025-09-14 16:30:21.338 | INFO     | src.pipeline.ingestor:load_documents:137 - Loaded: HCL Case Study.txt
+2025-09-14 16:30:21.338 | INFO     | src.pipeline.ingestor:load_documents:140 - Total documents: 1
+2025-09-14 16:30:21.339 | INFO     | src.pipeline.ingestor:split_into_chunks:173 - Created 109 chunks
+2025-09-14 16:30:21.339 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-14 16:30:21.341 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks.json
+2025-09-14 16:30:21.341 | INFO     | src.pipeline.ingestor:save_chunks:193 - Saved chunks to storage\chunks.json
+2025-09-14 16:30:21.341 | INFO     | src.pipeline.ingestor:run:208 - Ingestion finished
+2025-09-14 16:30:26.191 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-14 16:30:26.192 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-14 16:30:29.684 | INFO     | src.pipeline.indexer:__init__:39 - Indexer initialized.
+2025-09-14 16:30:29.684 | INFO     | src.pipeline.indexer:run:80 - Starting indexing...
+2025-09-14 16:30:29.692 | INFO     | src.core.utils:load_json:112 - Loaded JSON from: storage\chunks.json
+2025-09-14 16:30:29.692 | INFO     | src.pipeline.indexer:load_chunks:49 - Loaded 109 chunks from storage\chunks.json
+2025-09-14 16:30:31.878 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 16:30:31.878 | INFO     | src.pipeline.indexer:run:83 - Indexing finished
+2025-09-14 16:30:36.800 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-14 16:30:36.801 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-14 16:32:28.528 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-14 16:32:28.529 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-14 16:32:31.564 | INFO     | src.pipeline.searcher:__init__:36 - Searcher initialized.
+2025-09-14 16:32:31.564 | INFO     | src.pipeline.searcher:run:73 - Searching for: test
+2025-09-14 16:32:31.613 | INFO     | src.pipeline.searcher:search:66 - Found 3 results for: test
+2025-09-14 16:32:31.614 | INFO     | src.pipeline.searcher:run:80 -  Search finished.
