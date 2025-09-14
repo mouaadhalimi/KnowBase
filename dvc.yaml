@@ -1,6 +1,6 @@
 stages:
   ingest:
-    cmd: python -m src.main
+    cmd: python -m src.main ingest
     deps:
     - config/config.yaml
     - data
@@ -10,3 +10,14 @@ stages:
     - src/pipeline/ingestor.py
     outs:
     - storage/chunks.json
+  index:
+    cmd: python -m src.main index
+    deps:
+    - config/config.yaml
+    - src/core/logger.py
+    - src/core/utils.py
+    - src/main.py
+    - src/pipeline/indexer.py
+    - storage/chunks.json
+    outs:
+    - storage/vector_db

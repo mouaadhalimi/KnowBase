@@ -20,3 +20,138 @@
 2025-09-14 11:37:58.394 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks.json
 2025-09-14 11:37:58.394 | INFO     | src.pipeline.ingestor:save_chunks:89 - Saved chunks to storage\chunks.json
 2025-09-14 11:37:58.394 | INFO     | src.pipeline.ingestor:run:97 - Ingestion finished
+2025-09-14 15:59:13.473 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-14 15:59:13.474 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-14 15:59:13.475 | INFO     | src.pipeline.ingestor:__init__:49 - Ingestor initialized.
+2025-09-14 15:59:13.475 | INFO     | src.pipeline.ingestor:run:204 - Starting ingestion...
+2025-09-14 15:59:13.476 | INFO     | src.pipeline.ingestor:load_documents:137 - Loaded: HCL Case Study.txt
+2025-09-14 15:59:13.476 | INFO     | src.pipeline.ingestor:load_documents:140 - Total documents: 1
+2025-09-14 15:59:13.478 | INFO     | src.pipeline.ingestor:split_into_chunks:173 - Created 109 chunks
+2025-09-14 15:59:13.478 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-14 15:59:13.480 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks.json
+2025-09-14 15:59:13.480 | INFO     | src.pipeline.ingestor:save_chunks:193 - Saved chunks to storage\chunks.json
+2025-09-14 15:59:13.480 | INFO     | src.pipeline.ingestor:run:208 - Ingestion finished
+2025-09-14 15:59:18.416 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-14 15:59:18.418 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-14 15:59:21.829 | INFO     | src.pipeline.indexer:__init__:39 - Indexer initialized.
+2025-09-14 15:59:21.830 | INFO     | src.pipeline.indexer:run:80 - Starting indexing...
+2025-09-14 15:59:21.838 | INFO     | src.core.utils:load_json:112 - Loaded JSON from: storage\chunks.json
+2025-09-14 15:59:21.838 | INFO     | src.pipeline.indexer:load_chunks:49 - Loaded 109 chunks from storage\chunks.json
+2025-09-14 15:59:22.027 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.049 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.073 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.096 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.123 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.144 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.167 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.188 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.209 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.230 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.251 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.272 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.294 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.317 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.339 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.363 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.388 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.407 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.427 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.447 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.467 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.487 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.509 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.528 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.548 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.568 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.588 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.609 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.629 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.650 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.670 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.690 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.712 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.732 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.755 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.775 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.796 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.818 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.842 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.866 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.890 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.911 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.932 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.953 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.974 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:22.996 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.018 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.039 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.060 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.082 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.104 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.124 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.145 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.166 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.185 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.206 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.225 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.246 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.265 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.287 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.307 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.327 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.347 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.370 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.390 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.408 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.428 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.448 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.468 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.485 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.504 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.524 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.548 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.572 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.595 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.620 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.644 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.670 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.694 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.721 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.745 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.765 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.786 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.810 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.836 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.859 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.881 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.901 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.921 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.942 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.962 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:23.981 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.003 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.023 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.042 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.062 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.082 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.101 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.121 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.142 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.162 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.181 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.201 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.221 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.241 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.260 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.279 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.299 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.315 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 15:59:24.315 | INFO     | src.pipeline.indexer:run:83 - Indexing finished
+2025-09-14 16:00:59.029 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-14 16:00:59.030 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-14 16:01:02.174 | INFO     | src.pipeline.indexer:__init__:39 - Indexer initialized.
+2025-09-14 16:01:02.175 | INFO     | src.pipeline.indexer:run:80 - Starting indexing...
+2025-09-14 16:01:02.176 | INFO     | src.core.utils:load_json:112 - Loaded JSON from: storage\chunks.json
+2025-09-14 16:01:02.176 | INFO     | src.pipeline.indexer:load_chunks:49 - Loaded 109 chunks from storage\chunks.json
+2025-09-14 16:01:04.356 | INFO     | src.pipeline.indexer:index_chunks:70 - Stored 109 chunks into ChromaDB at storage\vector_db
+2025-09-14 16:01:04.356 | INFO     | src.pipeline.indexer:run:83 - Indexing finished
