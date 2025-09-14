@@ -5,7 +5,7 @@ paths:
   vector_db: storage/vector_db
 models:
   embedding_model: all-MiniLM-L6-v2
-  llm_model: mistral
+  llm_model: llama3
 chunking:
   chunk_size: 500
   chunk_overlap: 50

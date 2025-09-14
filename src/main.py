@@ -1,5 +1,6 @@
 from pathlib import Path
 import sys
+from src.pipeline.answerer import Answerer
 from src.pipeline.searcher import Searcher
 from src.pipeline.indexer import Indexer
 from src.core.Logger import LoggerManager
@@ -28,5 +29,10 @@ if __name__ == "__main__":
     elif stage == "search":
         query = " ".join(sys.argv[2:]) or "What is HCL?"
         Searcher(config, files, logger).run(query)
+    
+    elif stage == "answer":
+        question = " ".join(sys.argv[2:]) or "What is HCL?"
+        Answerer(config, files, logger).run(question)
+        
     else:
         logger.error(f"Unknown stage: {stage}")

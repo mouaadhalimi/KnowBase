@@ -22,11 +22,21 @@ stages:
     outs:
     - storage/vector_db
   search:
-    cmd: python -m src.main search test
+    cmd: python -m src.main search
     deps:
     - config/config.yaml
     - src/core/logger.py
     - src/core/utils.py
     - src/main.py
+    - src/pipeline/searcher.py
+    - storage/vector_db
+  answer:
+    cmd: python -m src.main answer
+    deps:
+    - config/config.yaml
+    - src/core/logger.py
+    - src/core/utils.py
+    - src/main.py
+    - src/pipeline/answerer.py
     - src/pipeline/searcher.py
     - storage/vector_db
