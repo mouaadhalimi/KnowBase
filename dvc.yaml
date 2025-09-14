@@ -1,0 +1,12 @@
+stages:
+  ingest:
+    cmd: python -m src.main
+    deps:
+    - config/config.yaml
+    - data
+    - src/core/logger.py
+    - src/core/utils.py
+    - src/main.py
+    - src/pipeline/ingestor.py
+    outs:
+    - storage/chunks.json

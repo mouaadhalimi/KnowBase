@@ -9,3 +9,14 @@
 2025-09-14 11:29:17.718 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks.json
 2025-09-14 11:29:17.718 | INFO     | src.pipeline.ingestor:save_chunks:89 - Saved chunks to storage\chunks.json
 2025-09-14 11:29:17.719 | INFO     | src.pipeline.ingestor:run:97 - Ingestion finished
+2025-09-14 11:37:58.388 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-14 11:37:58.390 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-14 11:37:58.390 | INFO     | src.pipeline.ingestor:__init__:26 - Ingestor initialized.
+2025-09-14 11:37:58.390 | INFO     | src.pipeline.ingestor:run:93 - Starting ingestion...
+2025-09-14 11:37:58.391 | INFO     | src.pipeline.ingestor:load_documents:64 - Loaded: HCL Case Study.txt
+2025-09-14 11:37:58.391 | INFO     | src.pipeline.ingestor:load_documents:67 - Total documents: 1
+2025-09-14 11:37:58.392 | INFO     | src.pipeline.ingestor:split_into_chunks:82 - Created 109 chunks
+2025-09-14 11:37:58.392 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-14 11:37:58.394 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks.json
+2025-09-14 11:37:58.394 | INFO     | src.pipeline.ingestor:save_chunks:89 - Saved chunks to storage\chunks.json
+2025-09-14 11:37:58.394 | INFO     | src.pipeline.ingestor:run:97 - Ingestion finished
