@@ -1,30 +1,58 @@
-from loguru import logger
+from loguru import logger as logguru_logger
 from pathlib import Path
 
-def setup_logger(log_dir: Path):
+
+class LoggerManager:
     """
-    Set up a centralized logger for the entire pipeline.
+    A centralized logger manager for the RAG pipeline.
 
-    This function configures the Loguru logger to:
-      - Create the specified log directory if it doesn't exist
-      - Write all log messages to a rotating log file (logging_project.log)
-      - Also display the same log messages in the console
-
-    The log file will automatically rotate after reaching 1 MB
-    and will keep up to 5 previous log files.
-
-    Args:
-        log_dir (Path): The directory where the log file should be stored.
-
-    Returns:
-        logger (loguru.Logger): A configured Loguru logger instance.
+    This class configures a Loguru logger to:
+    - Ensure a log directory exists
+    - Write logs to a rotating file (logging_project.log)
+    - Also print logs to the console
     """
-    log_dir.mkdir(parents=True, exist_ok=True)
-    logfile = log_dir/'logging_project.log'
 
-    logger.remove()
+    def __init__(self, log_dir:Path, level:str ="INFO"):
+        """
+        Initialize the logger.
 
-    logger.add(logfile, rotation ='1 MB', retention=5, level='INFO', enqueue=True)
-    logger.add(lambda msg:print(msg, end=""), level="INFO")
+        Args:
+            log_dir (Path): The directory where log files will be saved.
+            level (str): Logging level (default: "INFO").
+        """
+        self.log_dir = log_dir
+        self.level = level.upper()
 
-    return logger
+        self.log_dir.mkdir(parents=True, exist_ok=True)
+
+        logguru_logger.remove()
+
+        logfile = self.log_dir/"logging_project.log"
+        logguru_logger.add(
+            logfile,
+            rotation="1 MB",
+            retention=5,
+            level=self.level,
+            enqueue=True
+        )
+
+        logguru_logger.add(
+            lambda msg: print(msg, end=""),
+            level=self.level
+        )
+        self.logger = logguru_logger
+        self.logger.info(f"Logger initialized at {logfile}")
+
+
+
+    def get_logger(self):
+        """
+        Get the configured Loguru logger instance.
+
+        Returns:
+            loguru.Logger: The configured logger instance.
+        """
+        return self.logger
+
+
+
