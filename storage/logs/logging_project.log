@@ -253,3 +253,48 @@
 2025-09-14 21:22:28.563 | INFO     | src.pipeline.answerer:run:92 -  Generating answer for: What is HCL?
 2025-09-14 21:22:28.606 | INFO     | src.pipeline.searcher:search:66 - Found 3 results for: What is HCL?
 2025-09-14 21:22:31.919 | INFO     | src.pipeline.answerer:run:99 -  Answer generated.
+2025-09-15 11:34:22.795 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 11:34:22.796 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 11:35:01.260 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 11:35:01.262 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 11:35:01.262 | INFO     | src.pipeline.ingestor:__init__:57 - Ingestor initialized for user {user_id}.
+2025-09-15 11:35:01.262 | INFO     | src.pipeline.ingestor:run:238 - Starting ingestion for user {self.user_id}...
+2025-09-15 11:35:01.263 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: HCL Case Study.txt
+2025-09-15 11:35:01.263 | INFO     | src.pipeline.ingestor:load_documents:157 - Total documents for mouad: 1
+2025-09-15 11:35:01.264 | INFO     | src.pipeline.ingestor:split_into_chunks:201 - Created 109 chunks for mouad
+2025-09-15 11:35:01.264 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-15 11:35:01.265 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks_mouad.json
+2025-09-15 11:35:01.266 | INFO     | src.pipeline.ingestor:save_chunks:222 - Saved chunks for mouad to storage\chunks_mouad.json
+2025-09-15 11:35:01.266 | INFO     | src.pipeline.ingestor:run:242 - Ingestion finished for user {self.user_id}
+2025-09-15 11:41:42.015 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 11:41:42.016 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 11:41:42.017 | INFO     | src.pipeline.ingestor:__init__:57 - Ingestor initialized for user {user_id}.
+2025-09-15 11:41:42.017 | INFO     | src.pipeline.ingestor:run:238 - Starting ingestion for user {self.user_id}...
+2025-09-15 11:41:42.017 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: HCL Case Study.txt
+2025-09-15 11:41:42.018 | INFO     | src.pipeline.ingestor:load_documents:157 - Total documents for mouad: 1
+2025-09-15 11:41:42.019 | INFO     | src.pipeline.ingestor:split_into_chunks:201 - Created 109 chunks for mouad
+2025-09-15 11:41:42.019 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-15 11:41:42.020 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks_mouad.json
+2025-09-15 11:41:42.021 | INFO     | src.pipeline.ingestor:save_chunks:222 - Saved chunks for mouad to storage\chunks_mouad.json
+2025-09-15 11:41:42.021 | INFO     | src.pipeline.ingestor:run:242 - Ingestion finished for user {self.user_id}
+2025-09-15 11:41:47.160 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 11:41:47.161 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 11:41:50.483 | INFO     | src.pipeline.indexer:__init__:53 - Indexer initialized for user {user_id}
+2025-09-15 11:41:50.484 | INFO     | src.pipeline.indexer:run:127 - Starting indexing for user {self.user_id} ...
+2025-09-15 11:41:50.491 | INFO     | src.core.utils:load_json:112 - Loaded JSON from: storage\chunks_mouad.json
+2025-09-15 11:41:50.491 | INFO     | src.pipeline.indexer:load_chunks:74 - Loaded 109 chunks from storage\chunks_mouad.json for user mouad
+2025-09-15 11:41:52.529 | INFO     | src.pipeline.indexer:index_chunks:112 - Stored 109 chunks for user mouad into ChromaDB at storage\vector_db
+2025-09-15 11:41:52.529 | INFO     | src.pipeline.indexer:run:131 - Indexing finished for user {self.user_id}
+2025-09-15 11:41:57.793 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 11:41:57.794 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 11:42:00.704 | INFO     | src.pipeline.searcher:__init__:47 - Searcher initialized for user {user_id}
+2025-09-15 11:42:00.704 | INFO     | src.pipeline.searcher:run:110 - Searching for: What is HCL?
+2025-09-15 11:42:00.754 | INFO     | src.pipeline.searcher:search:96 - Found 3 results for: What is HCL?
+2025-09-15 11:42:00.755 | INFO     | src.pipeline.searcher:run:117 -  Search finished.
+2025-09-15 11:42:06.906 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 11:42:06.907 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 11:42:09.890 | INFO     | src.pipeline.searcher:__init__:47 - Searcher initialized for user {user_id}
+2025-09-15 11:42:09.890 | INFO     | src.pipeline.answerer:__init__:43 - Answer initialized for user mouad with Ollama model: llama3
+2025-09-15 11:42:09.891 | INFO     | src.pipeline.answerer:run:104 -  Generating answerfor user mouad for: What is HCL?
+2025-09-15 11:42:09.937 | INFO     | src.pipeline.searcher:search:96 - Found 3 results for: What is HCL?
+2025-09-15 11:42:16.554 | INFO     | src.pipeline.answerer:run:111 -  Answer generated for user {self.user_id}.

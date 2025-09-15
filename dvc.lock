@@ -1,13 +1,13 @@
 schema: '2.0'
 stages:
   ingest:
-    cmd: python -m src.main ingest
+    cmd: python -m src.main ingest mouad
     deps:
     - path: config/config.yaml
       hash: md5
       md5: 7b473c31ba648b7bdb891f15b056b9ee
       size: 257
-    - path: data
+    - path: data/mouad/
       hash: md5
       md5: da04dd58e41fc967be7f04d6df860267.dir
       size: 51880
@@ -22,19 +22,19 @@ stages:
       size: 3201
     - path: src/main.py
       hash: md5
-      md5: 82e75e52173ce32848deb9edacfa2d23
-      size: 1201
+      md5: 220e7a804cef79b0452f1f0016d0c0d8
+      size: 1309
     - path: src/pipeline/ingestor.py
       hash: md5
-      md5: 3b298cbb2540a7b5f305933e017e65dc
-      size: 5715
+      md5: ded0ff755c1772e9b77fd3c02d5f5754
+      size: 7201
     outs:
-    - path: storage/chunks.json
+    - path: storage/chunks_mouad.json
       hash: md5
-      md5: 508a266d1eabdddf16e27612edf64ada
-      size: 61391
+      md5: 807ef7ceea10effc0187c1bdef169b9c
+      size: 64116
   index:
-    cmd: python -m src.main index
+    cmd: python -m src.main index mouad
     deps:
     - path: config/config.yaml
       hash: md5
@@ -50,24 +50,24 @@ stages:
       size: 3201
     - path: src/main.py
       hash: md5
-      md5: 82e75e52173ce32848deb9edacfa2d23
-      size: 1201
+      md5: 220e7a804cef79b0452f1f0016d0c0d8
+      size: 1309
     - path: src/pipeline/indexer.py
       hash: md5
-      md5: 0be69e553b52e6fb5d901eb5a5d092b9
-      size: 2827
-    - path: storage/chunks.json
+      md5: 12555c80d016d2f8e42f4d824c7a7cdb
+      size: 5520
+    - path: storage/chunks_mouad.json
       hash: md5
-      md5: 508a266d1eabdddf16e27612edf64ada
-      size: 61391
+      md5: 807ef7ceea10effc0187c1bdef169b9c
+      size: 64116
     outs:
     - path: storage/vector_db
       hash: md5
-      md5: b8a18907252b3a4de1bc44c5ba049f57.dir
-      size: 1237156
+      md5: ec43ccf5ad544c06699222129a54b7b6.dir
+      size: 1245348
       nfiles: 5
   search:
-    cmd: python -m src.main search
+    cmd: python -m src.main search mouad
     deps:
     - path: config/config.yaml
       hash: md5
@@ -83,19 +83,19 @@ stages:
       size: 3201
     - path: src/main.py
       hash: md5
-      md5: 82e75e52173ce32848deb9edacfa2d23
-      size: 1201
+      md5: 220e7a804cef79b0452f1f0016d0c0d8
+      size: 1309
     - path: src/pipeline/searcher.py
       hash: md5
-      md5: e68b78041bec5143ec78100a1d066a01
-      size: 2891
+      md5: c1364a81dd9b4b0b00b5131c718c779b
+      size: 4484
     - path: storage/vector_db
       hash: md5
-      md5: 8aa2e204162453f3be8bfb68f1dcd682.dir
-      size: 1237156
+      md5: 01dda9861fd0ca8044ab396c9cfd9f22.dir
+      size: 1245348
       nfiles: 5
   answer:
-    cmd: python -m src.main answer
+    cmd: python -m src.main answer mouad
     deps:
     - path: config/config.yaml
       hash: md5
@@ -111,18 +111,18 @@ stages:
       size: 3201
     - path: src/main.py
       hash: md5
-      md5: 82e75e52173ce32848deb9edacfa2d23
-      size: 1201
+      md5: 220e7a804cef79b0452f1f0016d0c0d8
+      size: 1309
     - path: src/pipeline/answerer.py
       hash: md5
-      md5: a75fcdcea69580d6a1eb9627b2019d0b
-      size: 3609
+      md5: f8835f543c4dc98e488199c21deeea01
+      size: 4273
     - path: src/pipeline/searcher.py
       hash: md5
-      md5: e68b78041bec5143ec78100a1d066a01
-      size: 2891
+      md5: c1364a81dd9b4b0b00b5131c718c779b
+      size: 4484
     - path: storage/vector_db
       hash: md5
-      md5: ba6fe09a01e2bfe1fbb8e0f0a622bac0.dir
-      size: 1237156
+      md5: c5093a451427eb570df18e7b7febbfe4.dir
+      size: 1245348
       nfiles: 5

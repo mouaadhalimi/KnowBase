@@ -9,36 +9,44 @@ from src.core.utils import FileManager
 
 class Ingestor:
     """
-    The Ingestor class handles the **ingestion step** of the
-    RAG (Retrieval-Augmented Generation) pipeline.
+    The Ingestor class is the first stage in a multi-user RAG pipeline.
 
-    Responsibilities:
-        - Read raw documents from the local data directory
-        - Supported formats: .txt, .pdf, .docx
-        - Split documents into smaller overlapping text chunks
-        - Save the resulting chunks as a JSON file
+    It handles the ingestion of documents for a specific user by:
+      - Reading supported documents (.txt, .pdf, .docx) from data/<user_id>/
+      - Splitting the content into smaller overlapping chunks
+      - Saving the chunks into a JSON file tagged with that user_id
 
-    This class is only responsible for ingesting and preparing text data.
-    It does not handle embeddings or vector storage.
+    Each chunk will later be embedded and stored in the vector database.
+    Using `user_id` ensures each user’s data stays completely separated.
     """
 
 
 
-    def __init__(self, config:dict, file_manager: FileManager, logger):
+    def __init__(self, config:dict, file_manager: FileManager, logger, user_id:str):
         """
-        Initialize the Ingestor class.
+        Initialize the Ingestor for a specific user.
+
+        This sets up:
+          - The input data directory for that user
+          - The output chunks file path
+          - The text splitter configuration (chunk size & overlap)
 
         Args:
-            config (dict): Loaded configuration settings from config.yaml.
-            file_manager (FileManager): Utility class for file operations.
-            logger (Logger): A Loguru logger instance for logging progress and errors.
+            config (dict): Settings loaded from config.yaml. Must include:
+                - paths.data_dir: base directory for user documents
+                - paths.chunks_file: base path for output chunks
+                - chunking.chunk_size / chunk_overlap
+            file_manager (FileManager): Utility class to read/write files.
+            logger (Logger): Loguru logger instance to log messages.
+            user_id (str): Unique identifier for the current user.
         """
         self.logger = logger
         self.files=file_manager
+        self.user_id = user_id
 
         paths = config['paths']
-        self.data_dir = Path(paths['data_dir'])
-        self.chunks_file = Path(paths['chunks_file'])
+        self.data_dir = Path(paths['data_dir'])/user_id
+        self.chunks_file = Path(paths['chunks_file']).with_name(f"chunks_{user_id}.json")
 
         ch = config["chunking"]
         self.splitter = RecursiveCharacterTextSplitter(
@@ -46,7 +54,7 @@ class Ingestor:
             chunk_overlap=ch['chunk_overlap']
         )
 
-        self.logger.info('Ingestor initialized.')
+        self.logger.info('Ingestor initialized for user {user_id}.')
 
 
     #---------------Reading------------
@@ -82,7 +90,7 @@ class Ingestor:
         reader = PdfReader(str(path))
         for page in reader.pages:
             text.append(page.extract_text() or '')
-            return '\n'. join(text)
+        return '\n'. join(text)
     
 
 
@@ -109,16 +117,25 @@ class Ingestor:
 
     def load_documents(self) -> List[Dict]:
         """
-        Load all supported documents from the data directory.
+        Load all user documents from data/<user_id>/.
 
-        Supported extensions: .txt, .pdf, .docx
+        This scans the user's data folder, reads all supported files,
+        and attaches the user_id to each loaded document.
+
+        Supported formats: .txt, .pdf, .docx
 
         Returns:
-            List[Dict]: A list of documents in the format:
-                        {"filename": str, "content": str}
+            List[Dict]: A list of document dictionaries:
+                [
+                  {"filename": str, "content": str, "user_id": str},
+                  ...
+                ]
         """
 
         docs = []
+        if not self.data_dir.exists():
+            self.logger.warning(f"No data folder found for user {self.user_id}")
+            return []
         for fp in self.data_dir.glob('*'):
             if not fp.is_file():
                 continue
@@ -133,11 +150,11 @@ class Ingestor:
                 else:
                     continue
                 if content.strip():
-                    docs.append({'filename': fp.name, "content": content})
+                    docs.append({'filename': fp.name, "content": content, "user_id": self.user_id})
                     self.logger.info(f"Loaded: {fp.name}")
             except Exception as e:
                 self.logger.error(f"Error reading {fp.name} : {e}")
-        self.logger.info(f'Total documents: {len(docs)}')
+        self.logger.info(f'Total documents for {self.user_id}: {len(docs)}')
         return docs
     
 
@@ -152,12 +169,22 @@ class Ingestor:
         """
         Split loaded documents into smaller overlapping text chunks.
 
+        This improves retrieval accuracy during semantic search.
+
         Args:
             documents (List[Dict]): The list of loaded documents.
 
         Returns:
-            List[Dict]: A list of chunks in the format:
-                        {"filename": str, "chunk_id": int, "text": str}
+            List[Dict]: A list of chunk dictionaries:
+                [
+                  {
+                    "filename": str,
+                    "chunk_id": int,
+                    "text": str,
+                    "user_id": str
+                  },
+                  ...
+                ]
         """
 
         chunks = []
@@ -168,9 +195,10 @@ class Ingestor:
                 chunks.append({
                     'filename': doc['filename'],
                     'chunk_id':i,
-                    'text': text
+                    'text': text,
+                    "user_id":self.user_id
                 })
-        self.logger.info(f"Created {len(chunks)} chunks")
+        self.logger.info(f"Created {len(chunks)} chunks for {self.user_id}")
         return chunks
     
 
@@ -182,27 +210,33 @@ class Ingestor:
 
     def save_chunks(self, chunks:List[Dict]):
 
+        
         """
-        Save the generated chunks to the output JSON file.
+        Save all generated chunks to storage/chunks_<user_id>.json
 
         Args:
             chunks (List[Dict]): The list of chunks to save.
         """
 
         self.files.save_json(chunks, self.chunks_file)
-        self.logger.info(f"Saved chunks to {self.chunks_file}")
+        self.logger.info(f"Saved chunks for {self.user_id} to {self.chunks_file}")
     
 
 
     def run(self):
         """
-        Run the full ingestion process:
-        - Load documents
-        - Split them into chunks
-        - Save the resulting chunks as JSON
+        Execute the full ingestion pipeline for this user.
+
+        Steps:
+          1. Load documents from data/<user_id>/
+          2. Split them into smaller chunks
+          3. Save all chunks into storage/chunks_<user_id>.json
+
+        This must be run before indexing or searching.
         """
-        self.logger.info('Starting ingestion...')
+        
+        self.logger.info('Starting ingestion for user {self.user_id}...')
         docs = self.load_documents()
         chunks = self.split_into_chunks(docs)
         self.save_chunks(chunks)
-        self.logger.info("Ingestion finished")
+        self.logger.info("Ingestion finished for user {self.user_id}")

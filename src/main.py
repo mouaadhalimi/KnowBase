@@ -15,24 +15,31 @@ if __name__ == "__main__":
     files = FileManager(logger)
     config = files.load_config(Path("config/config.yaml"))
 
+    if len(sys.argv)<3:
+        print("usage:")
+        print(" python -m src.main <stage> <user_id> [question]")
+    
+    stage =sys.argv[1]
+    user_id = sys.argv[2]
+    extra=sys.argv[3:]
 
-    stage = sys.argv[1] if len(sys.argv) > 1 else "ingest"
+
 
     if stage =="ingest":
-        ingestor = Ingestor(config=config, file_manager=files, logger=logger)
+        ingestor = Ingestor(config, files, logger, user_id)
         ingestor.run()
 
     elif stage == "index":
-        indexer = Indexer(config=config, file_manager=files, logger=logger)
+        indexer = Indexer(config, files, logger, user_id)
         indexer.run()
 
     elif stage == "search":
-        query = " ".join(sys.argv[2:]) or "What is HCL?"
-        Searcher(config, files, logger).run(query)
+        query = " ".join(extra) or "What is HCL?"
+        Searcher(config, files, logger, user_id).run(query)
     
     elif stage == "answer":
-        question = " ".join(sys.argv[2:]) or "What is HCL?"
-        Answerer(config, files, logger).run(question)
+        question = " ".join(extra) or "What is HCL?"
+        Answerer(config, files, logger, user_id).run(question)
         
     else:
         logger.error(f"Unknown stage: {stage}")

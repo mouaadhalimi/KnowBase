@@ -1,28 +1,28 @@
 stages:
   ingest:
-    cmd: python -m src.main ingest
+    cmd: python -m src.main ingest ${user_id}
     deps:
     - config/config.yaml
-    - data
+    - data/${user_id}/
     - src/core/logger.py
     - src/core/utils.py
     - src/main.py
     - src/pipeline/ingestor.py
     outs:
-    - storage/chunks.json
+    - storage/chunks_${user_id}.json
   index:
-    cmd: python -m src.main index
+    cmd: python -m src.main index ${user_id}
     deps:
     - config/config.yaml
     - src/core/logger.py
     - src/core/utils.py
     - src/main.py
     - src/pipeline/indexer.py
-    - storage/chunks.json
+    - storage/chunks_${user_id}.json
     outs:
     - storage/vector_db
   search:
-    cmd: python -m src.main search
+    cmd: python -m src.main search ${user_id}
     deps:
     - config/config.yaml
     - src/core/logger.py
@@ -31,7 +31,7 @@ stages:
     - src/pipeline/searcher.py
     - storage/vector_db
   answer:
-    cmd: python -m src.main answer
+    cmd: python -m src.main answer ${user_id}
     deps:
     - config/config.yaml
     - src/core/logger.py
