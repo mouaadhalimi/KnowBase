@@ -298,3 +298,61 @@
 2025-09-15 11:42:09.891 | INFO     | src.pipeline.answerer:run:104 -  Generating answerfor user mouad for: What is HCL?
 2025-09-15 11:42:09.937 | INFO     | src.pipeline.searcher:search:96 - Found 3 results for: What is HCL?
 2025-09-15 11:42:16.554 | INFO     | src.pipeline.answerer:run:111 -  Answer generated for user {self.user_id}.
+2025-09-15 15:45:47.753 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 15:45:47.754 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 15:45:47.755 | INFO     | src.pipeline.ingestor:__init__:57 - Ingestor initialized for user {user_id}.
+2025-09-15 15:45:47.755 | INFO     | src.pipeline.ingestor:run:238 - Starting ingestion for user {self.user_id}...
+2025-09-15 15:45:47.982 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 01 - Introduction to Decision Making.pdf
+2025-09-15 15:45:48.393 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 02 - Prospect Theory and Framing Problems.pdf
+2025-09-15 15:45:48.691 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 03 - Confirmation Bias and Availability Bias.pdf
+2025-09-15 15:45:48.924 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 04 - Anchoring and Sunk Cost Bias.pdf
+2025-09-15 15:45:49.121 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 05 - Choice Overload and Salience.pdf
+2025-09-15 15:45:49.334 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 06 - Need-based Motivation Theories.pdf
+2025-09-15 15:45:49.951 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 07 - Extrinsic Motivation.pdf
+2025-09-15 15:45:50.107 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 08 - Intrinsic Motivation (introduction).pdf
+2025-09-15 15:45:50.368 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 09 - Autonomy and HRM.pdf
+2025-09-15 15:45:50.522 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 10 - The Valve Case Study.pdf
+2025-09-15 15:45:50.804 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 11 - Job Crafting.pdf
+2025-09-15 15:45:51.035 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 12 - Goal Setting.pdf
+2025-09-15 15:45:51.558 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 13 - Growth.pdf
+2025-09-15 15:45:51.815 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 14 - Conformity.pdf
+2025-09-15 15:45:52.302 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 15 - Social Influence and Persuasion.pdf
+2025-09-15 15:45:52.557 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 16 - Reciprocity.pdf
+2025-09-15 15:45:52.670 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 17 - Social Influence and HRM (examples).pdf
+2025-09-15 15:45:53.102 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 18 - Group Pathologies.pdf
+2025-09-15 15:45:53.579 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 19 - Techniques for Group Effectiveness.pdf
+2025-09-15 15:45:53.970 | INFO     | src.pipeline.ingestor:load_documents:154 - Loaded: 20 - Leadership.pdf
+2025-09-15 15:45:53.970 | INFO     | src.pipeline.ingestor:load_documents:157 - Total documents for mouad: 20
+2025-09-15 15:45:53.997 | INFO     | src.pipeline.ingestor:split_into_chunks:201 - Created 1495 chunks for mouad
+2025-09-15 15:45:53.998 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-15 15:45:54.008 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks_mouad.json
+2025-09-15 15:45:54.008 | INFO     | src.pipeline.ingestor:save_chunks:222 - Saved chunks for mouad to storage\chunks_mouad.json
+2025-09-15 15:45:54.008 | INFO     | src.pipeline.ingestor:run:242 - Ingestion finished for user {self.user_id}
+2025-09-15 15:45:59.311 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 15:45:59.312 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 15:46:02.624 | INFO     | src.pipeline.indexer:__init__:53 - Indexer initialized for user {user_id}
+2025-09-15 15:46:02.625 | INFO     | src.pipeline.indexer:run:127 - Starting indexing for user {self.user_id} ...
+2025-09-15 15:46:02.635 | INFO     | src.core.utils:load_json:112 - Loaded JSON from: storage\chunks_mouad.json
+2025-09-15 15:46:02.635 | INFO     | src.pipeline.indexer:load_chunks:74 - Loaded 1495 chunks from storage\chunks_mouad.json for user mouad
+2025-09-15 15:46:30.666 | INFO     | src.pipeline.indexer:index_chunks:112 - Stored 1495 chunks for user mouad into ChromaDB at storage\vector_db
+2025-09-15 15:46:30.666 | INFO     | src.pipeline.indexer:run:131 - Indexing finished for user {self.user_id}
+2025-09-15 15:46:36.296 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 15:46:36.297 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 15:46:39.349 | INFO     | src.pipeline.searcher:__init__:47 - Searcher initialized for user {user_id}
+2025-09-15 15:46:39.349 | INFO     | src.pipeline.searcher:run:110 - Searching for: What is HCL?
+2025-09-15 15:46:39.408 | INFO     | src.pipeline.searcher:search:96 - Found 3 results for: What is HCL?
+2025-09-15 15:46:39.409 | INFO     | src.pipeline.searcher:run:117 -  Search finished.
+2025-09-15 15:46:45.631 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 15:46:45.633 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 15:46:48.692 | INFO     | src.pipeline.searcher:__init__:47 - Searcher initialized for user {user_id}
+2025-09-15 15:46:48.692 | INFO     | src.pipeline.answerer:__init__:43 - Answer initialized for user mouad with Ollama model: llama3
+2025-09-15 15:46:48.693 | INFO     | src.pipeline.answerer:run:104 -  Generating answerfor user mouad for: What is HCL?
+2025-09-15 15:46:48.741 | INFO     | src.pipeline.searcher:search:96 - Found 3 results for: What is HCL?
+2025-09-15 15:46:53.833 | INFO     | src.pipeline.answerer:run:111 -  Answer generated for user {self.user_id}.
+2025-09-15 15:52:54.350 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 15:52:54.352 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 15:52:57.430 | INFO     | src.pipeline.searcher:__init__:47 - Searcher initialized for user {user_id}
+2025-09-15 15:52:57.430 | INFO     | src.pipeline.answerer:__init__:43 - Answer initialized for user mouad with Ollama model: llama3
+2025-09-15 15:52:57.430 | INFO     | src.pipeline.answerer:run:104 -  Generating answerfor user mouad for: what is the difference between fixed and growth mindset in point of view of carol dweck?
+2025-09-15 15:52:57.479 | INFO     | src.pipeline.searcher:search:96 - Found 3 results for: what is the difference between fixed and growth mindset in point of view of carol dweck?
+2025-09-15 15:53:01.204 | INFO     | src.pipeline.answerer:run:111 -  Answer generated for user {self.user_id}.

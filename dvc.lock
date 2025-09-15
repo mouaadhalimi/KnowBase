@@ -9,9 +9,9 @@ stages:
       size: 257
     - path: data/mouad/
       hash: md5
-      md5: da04dd58e41fc967be7f04d6df860267.dir
-      size: 51880
-      nfiles: 1
+      md5: 13d6e0e1d8441411c1a5884378bd9df6.dir
+      size: 28190934
+      nfiles: 20
     - path: src/core/logger.py
       hash: md5
       md5: 18904f790603b4d798c633bf318317fd
@@ -31,8 +31,8 @@ stages:
     outs:
     - path: storage/chunks_mouad.json
       hash: md5
-      md5: 807ef7ceea10effc0187c1bdef169b9c
-      size: 64116
+      md5: 6d15f258ce06237ba185e438d16fd918
+      size: 658952
   index:
     cmd: python -m src.main index mouad
     deps:
@@ -58,14 +58,14 @@ stages:
       size: 5520
     - path: storage/chunks_mouad.json
       hash: md5
-      md5: 807ef7ceea10effc0187c1bdef169b9c
-      size: 64116
+      md5: 6d15f258ce06237ba185e438d16fd918
+      size: 658952
     outs:
     - path: storage/vector_db
       hash: md5
-      md5: ec43ccf5ad544c06699222129a54b7b6.dir
-      size: 1245348
-      nfiles: 5
+      md5: 702c9ec6d96c282cd20aafead028a0e3.dir
+      size: 7930836
+      nfiles: 6
   search:
     cmd: python -m src.main search mouad
     deps:
@@ -91,9 +91,9 @@ stages:
       size: 4484
     - path: storage/vector_db
       hash: md5
-      md5: 01dda9861fd0ca8044ab396c9cfd9f22.dir
-      size: 1245348
-      nfiles: 5
+      md5: caa632b4ddb09dcfa06c67fe1441235d.dir
+      size: 7930836
+      nfiles: 6
   answer:
     cmd: python -m src.main answer mouad
     deps:
@@ -115,14 +115,14 @@ stages:
       size: 1309
     - path: src/pipeline/answerer.py
       hash: md5
-      md5: f8835f543c4dc98e488199c21deeea01
-      size: 4273
+      md5: 557f9a2706643e983c6ba23152ea5666
+      size: 4235
     - path: src/pipeline/searcher.py
       hash: md5
       md5: c1364a81dd9b4b0b00b5131c718c779b
       size: 4484
     - path: storage/vector_db
       hash: md5
-      md5: c5093a451427eb570df18e7b7febbfe4.dir
-      size: 1245348
-      nfiles: 5
+      md5: 9a5c62d20d03395c5dba2b4823672d72.dir
+      size: 7930836
+      nfiles: 6

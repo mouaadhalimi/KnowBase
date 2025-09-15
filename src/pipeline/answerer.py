@@ -1,8 +1,8 @@
-from pathlib import Path
+
 from typing import List, Dict
 from src.pipeline.searcher import Searcher
 from src.core.utils import FileManager
-import ollama   # type: ignore
+import ollama   
 
 class Answerer:
     """
