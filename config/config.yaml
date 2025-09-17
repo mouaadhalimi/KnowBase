@@ -1,13 +1,23 @@
 paths:
   data_dir: data
   storage_dir: storage
-  chunks_file: storage/chunks.json
+  chunks_file: storage/chunks/chunks.json
   vector_db: storage/vector_db
+  logs_dir: storage/logs
 models:
-  embedding_model: all-MiniLM-L6-v2
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
   llm_model: llama3
 chunking:
   chunk_size: 500
   chunk_overlap: 50
+layout:
+  use_ai: true
+  pdf_dpi: 150
+  score_thresh: 0.5
+entities:
+  model: en_core_web_sm
+  min_confidence: 0.0
 search:
   top_k: 3
+tokenizer:
+  model: gpt-4

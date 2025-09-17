@@ -1,0 +1,2480 @@
+[
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 0,
+    "text": "ORGANIZATIONAL BEHAVIOR AND HUMAN\nRESOURCE MANAGEMENT prof. Giovanni Masino\nUniversity of Ferrara",
+    "type": "text",
+    "page": 0,
+    "entities": [
+      {
+        "text": "Giovanni Masino",
+        "label": "PERSON"
+      },
+      {
+        "text": "University of Ferrara",
+        "label": "ORG"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 1,
+    "text": "a short introduction to human\ndecision making",
+    "type": "text",
+    "page": 1,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 2,
+    "text": "COMMON MISCONCEPTIONS | AM RATIONAL\n\nNOT REALLY (SORRY!!)\n\nWE ARE LESS RATIONAL\nTHAN WE THINK\n\nBUT THIS IS NOT ALWAYS A\nBAD THING",
+    "type": "section-header",
+    "page": 2,
+    "entities": [
+      {
+        "text": "RATIONAL",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 3,
+    "text": "THERE IS ONE\nFORMULA FOR\nOPTIMAL\nDECISIONS WE ARE LESS RATIONAL\nTHAN WE THINK BUT THIS IS NOT ALWAYS A\nBAD THING ALL THAT MATTERS\n\nIS INTELL\n\nINFO\nEXP\n\nGE\n\nCE,\n\nRMATION,\n\nERI\n\nENC NOT IN THE REAL WORLD HOWEVER, THERE ARE\nPRACTICAL WAYS THROUGH\nWHICH WE CAN IMPROVE\nOUR ABILITY TO MAKE\nGOOD DECISIONS A“GOOD\" DECISION\nHAS TO BE PERFECTLY\n“RATIONAL” THESE ARE NECESSARY BUT\nNOT SUFFICIENT ELEMENTS HISTORY IS FULL OF VERY\nINTELLIGENT, WELL\nINFORMED, EXPERIENCED\nPEOPLE WHO MADE VERY\nBAD DECISIONS PERFECT RATIONALITY ISA\nGOOD THING, BUT IN\nPRACTICE IS RARELY (IF\nEVER) ACHIEVABLE THERE'S A FOURTH\n“INGREDIENT” WHICH IS\nESSENTIAL TO BECOME\nGOOD DECISION MAKERS THE PERFECT RATIONALITY\nMODEL PROVIDES GENERAL\nGUIDELINES, BUT HUMAN\n\nDECISION MAKI\nDIFFERENT\n\nGIS QUITE NOT AT ALL CONTEXT MATTERS A LOT,\nIN MANY DIFFERENT WAYS",
+    "type": "text",
+    "page": 2,
+    "entities": [
+      {
+        "text": "ONE",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "FOURTH",
+        "label": "ORDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 4,
+    "text": "WHY IT IS IMPORTANT",
+    "type": "section-header",
+    "page": 3,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 5,
+    "text": "exp. outc.\n1A 1B1C\nexp. outc.\n2A 2B 2C\nexp. outc.\n3A 3B 3C\n\nFunction\nPi U(Xi)",
+    "type": "picture",
+    "page": 4,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 6,
+    "text": "* Decision making as expected utility maximization\n—-UxP\n* What game do you prefer to play? —A. Earn 4 euros every time you find a hearts card from a deck of\npoker cards —B. Earn 3 euros every time you find a red card from a deck of poker\ncards",
+    "type": "text",
+    "page": 5,
+    "entities": [
+      {
+        "text": "4 euros",
+        "label": "MONEY"
+      },
+      {
+        "text": "3 euros",
+        "label": "MONEY"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 7,
+    "text": "Human (real) vs Perfect (abstract) decision making In order to understand human decision making in organizational or individua\nsituations, the classic rational model is not always a very useful guidance",
+    "type": "section-header",
+    "page": 6,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 8,
+    "text": "Not even, sometimes, in very simple decisions This is especially true when decisions are complex please notice: almost all decisions that are important in our life are, indeed, quite\ncomplex",
+    "type": "text",
+    "page": 6,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 9,
+    "text": "So, what's the problem with classic rationality? ¢ STRENGTHS: —It does provide general guidelines about what a good decision making process by\nan «abstract rational» actor should look like",
+    "type": "section-header",
+    "page": 7,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 10,
+    "text": "—in other words: we should try to set clear goals, to collect relevant information, to\nidentify options, to imagine and evaluate consequences, to think about preferences",
+    "type": "list-item",
+    "page": 7,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 11,
+    "text": "—in other words: we should try to set clear goals, to collect relevant information, to\nidentify options, to imagine and evaluate consequences, to think about preferences\n\n—we also should try to follow fundamental logic / statistical principles",
+    "type": "list-item",
+    "page": 7,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 12,
+    "text": "—we also should try to follow fundamental logic / statistical principles ¢ for example, if A>B and B>C, we must conclude that A> C * PROBLEMS: —rational models rarely describe accurately how we think and decide in the re\nworld —its effectiveness relies on very stringent, often unrealistic assumptions and\nconstraints WE NEED SPECIFIC KNOWLEDGE ABOUT HUMAN DECISION MAKING",
+    "type": "list-item",
+    "page": 7,
+    "entities": [
+      {
+        "text": ">",
+        "label": "WORK_OF_ART"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 13,
+    "text": "¢ If we want to understand HUMAN decision making, we need to consider:\n\newe have limited time, energy, resources *we often have conflicting, unclear goals\n*we often have incomplete, inaccurate information\n\n*we often use intuitive, implicit processes within our\ndecision making process",
+    "type": "list-item",
+    "page": 8,
+    "entities": [
+      {
+        "text": "HUMAN",
+        "label": "NORP"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 14,
+    "text": "*we need to balance effectiveness and efficiency\n\newe make decisions within a context, and the influence\nof context is extremely significant",
+    "type": "list-item",
+    "page": 8,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 15,
+    "text": "Is it about «skill» or «luck»? 7 |26,40'58|73\n14/22/34/55/68\n4 24 rr |46)72\n9 2036/52/74\n6 |28/35|49|64 = 7\n7 xa\nre | : e f\nes) ~ “7 eS {) (0) ©)",
+    "type": "section-header",
+    "page": 9,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 16,
+    "text": "The variable boundary between skill and luck «luck» 1. to be experienced about the decision\ndomain 1. anything that does not depend\non the process that we utilize: 2. to have personal qualities - what we could not predict - what we could not know 3. to utilize a good «process», that is - being able to acquire and evaluate\npertinent, accurate and complete\ninformation - what we could not control what we could have predicted,\nand we didn't - knowing effective decision making\ntechnique - being able to adapt those techniques\nto one’s specific context what we could have known or\ncontrolled, and we neglected - to know yourself, your strengths,\nyour weaknesses, your implicit\nintuitutions and thought processes being able to delegate - being able to manage group decision\nmaking processes",
+    "type": "section-header",
+    "page": 10,
+    "entities": [
+      {
+        "text": "1.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3.",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 17,
+    "text": "A little exercise 1. You decide to invest resources (time, people, money, reputation etc) in a project.\nAfter the end of the project, you realize that the final outcome is below expectations, or\neven negative overall. Was it a GOOD or a BAD decision to invest in such project?\n\n2. You decide to invest resources (time, people, money, reputation etc) in a project.\nAfter the end of the project, you realize that the final outcome is above expectations, or\neven excellent. Was it a GOOD or a BAD decision to invest in such project?",
+    "type": "section-header",
+    "page": 11,
+    "entities": [
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 18,
+    "text": "1. You decide to invest resources (time, people, money, reputation etc) in a project.\nAfter the end of the project, you realize that the final outcome is below expectations, or\neven negative overall. Was ita GOOD or a BAD decision to invest in such project?",
+    "type": "text",
+    "page": 11,
+    "entities": [
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 19,
+    "text": "2. You decide to invest resources (time, people, money, reputation etc) in a project.\nAfter the end of the project, you realize that the final outcome is above expectations, or\neven excellent. Was it a GOOD or a BAD decision to invest in such project?",
+    "type": "text",
+    "page": 11,
+    "entities": [
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 20,
+    "text": "HOW DO YOU THINK THAT THE VAST MAJORITY OF PEOPLE WOULD RESPOND? WAY TOO OFTEN, WE ASSOCIATE THE JUDGMENT ON THE DECISION (as a PROCESS, or\nMETHOD to decide) TO ITS OUTCOME",
+    "type": "text",
+    "page": 11,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 21,
+    "text": "In the example above, | gave you NO INFORMATION AT ALL about the quality of the\ndecision process",
+    "type": "text",
+    "page": 11,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 22,
+    "text": "NEGATIVE GOOD\n\nLITY of the\n\n=CISION\nROCESS\n\nBAD\n\ndeserved bad luck\nSUCCESS\ngood luck deserved\n\nfailure",
+    "type": "section-header",
+    "page": 12,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 23,
+    "text": "OUTCOME POSITIVE GOOD\n\nITY of the\n-ISION\nICESS\n\nBAD\n\ndeserved deserved failure\nSUCCESS (or, sometimes, bad luck)\ndeserved deserved failure\n\nSUCCESS\n\n(or sometimes, bad luck)",
+    "type": "section-header",
+    "page": 13,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 24,
+    "text": "Mistakes to avoid and approach to embrace GOOD\n\nITY of the\nCISION\nOCESS\n\nBAD\n\nERROR: | used a good process,\nso no need to examine or\nchange it\n\nCORRECT APPROACH: Even though\neverything went well, | can still\nlearn about how to improve my\n\nprocess\n\nERROR: | used a bad process,\nso | need to change it\n\nCORRECT APPROACH: | need to\nunderstand that the bad outcome\nwas due to bad luck and how an\neven better process can decrease\nthe influence of luck\n\nERROR: | used a good process,\nso no need to examine or\nchange it\n\nCORRECT APPROACH: by examining\n\nthe process, | understand that | just\n\nwas lucky, so | can improve it. Next\ntime | might not be so lucky!\n\nERROR: | was unlucky, so no\nneed to examine and change\nmy process\n\nCORRECT APPROACH: : by examining\n\nthe process, | understand that it was\n\nnot jst bad luck, but | need to\nimprove the process!",
+    "type": "section-header",
+    "page": 14,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 25,
+    "text": "- TO BLINDLY ASSOCIATE A GOOD OUTCOME TO A GOOD PROCESS, and «\nBAD OUTCOME TO A BAD PROCESS - TO BLINDLY ASSOCIATE A GOOD OUTCOME TO A GOOD PROCESS, and |\nBAD OUTCOME TO A BAD PROCESS - TO BLINDLY ASSOCIATE A GOOD OUTCOME TO A GOOD PROCESS, and a\nBAD OUTCOME TO A BAD PROCESS - TO EXAGGERATE THE RELEVANCE OF LUCK WHEN THE OUTCOME IS\nNEGATIVE - TO EXAGGERATE THE RELEVANCE OF SKILL WHEN THE OUTCOME IS\nPOSITIVE - (notice: sometimes we do the opposite when we evaluate other people\ndecisions, especially people that we don't like) - (notice: sometimes we do the opposite when we evaluate other people's\ndecisions, especially people that we don't like) - «she got a great result; she just got lucky» - «she got a bad result; she’s incompetent» - Instead, we need to examine critically our decision making process\nregardless of the outcome, because in all circumstances there may be\nopportunities for improvement!",
+    "type": "list-item",
+    "page": 15,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 26,
+    "text": "Let's talk about «context» What does it mean that «context is very relevant» ir\norder to understand human decision making?",
+    "type": "section-header",
+    "page": 16,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 27,
+    "text": "The relevance of\n«context»",
+    "type": "section-header",
+    "page": 17,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 28,
+    "text": "A USEFUL ANALOGY (from Thaler and Sunstein) AU\n\nWN\n\nEFUL ANALOGY (from Thaler and Sunstein) * Carol is the manager of an elementary school in a big city\n\n* She realized that the way foods are laid out on the buffet\nereatly influences children’s choices",
+    "type": "section-header",
+    "page": 19,
+    "entities": [
+      {
+        "text": "Thaler",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sunstein",
+        "label": "PERSON"
+      },
+      {
+        "text": "AU\n\n",
+        "label": "ORG"
+      },
+      {
+        "text": "WN\n\n",
+        "label": "ORG"
+      },
+      {
+        "text": "EFUL ANALOGY",
+        "label": "ORG"
+      },
+      {
+        "text": "Thaler and Sunstein",
+        "label": "ORG"
+      },
+      {
+        "text": "Carol",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 29,
+    "text": "‘Carol's options (among many others)\n\n—1. TO MAXIMIS\n—2. TO MAXIMIS\n—3. TO MAXIMIS\n\nE CHI\n\nE CHI\n\nDREN'S WELL BEING\nDREN'S HAPPINESS\n\nE THE FINANCIAL RESULTS FOR THE SCHOOL\n\n—....(many others)",
+    "type": "text",
+    "page": 20,
+    "entities": [
+      {
+        "text": "Carol",
+        "label": "ORG"
+      },
+      {
+        "text": "1.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3.",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 30,
+    "text": "But, she doesn't really want to influence the children’s food choices. After\nall, this is not her job. She doesn't want such responsibility.",
+    "type": "text",
+    "page": 20,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 31,
+    "text": "But, she doesn't really want to influence the children’s food choices. Aft\nall, this is not her job. She doesn't want such responsibility.\n\nWhat could she do? Is she really able to make sure that the children’s\nchoice are not influenced by the food layout?",
+    "type": "text",
+    "page": 20,
+    "entities": [
+      {
+        "text": "Aft",
+        "label": "PERSON"
+      },
+      {
+        "text": "all",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 32,
+    "text": "But, she doesn't really want to influence the children’s food choices. Afte\nall, this is not her job. She doesn't want such responsibility.\n\n\\Wihhat coiild che don? le che really ahle to make cre that the childran’<",
+    "type": "text",
+    "page": 20,
+    "entities": [
+      {
+        "text": "Afte",
+        "label": "PERSON"
+      },
+      {
+        "text": "all",
+        "label": "PERSON"
+      },
+      {
+        "text": "\\Wihhat coiild che don",
+        "label": "PERSON"
+      },
+      {
+        "text": "le che really",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 33,
+    "text": "What could she do? Is she really able to make sure that the children’s\nchoice are not influenced by the food layout?",
+    "type": "text",
+    "page": 20,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 34,
+    "text": "> ANY order in the buffet will influence the childrens’ choices ¢ ANY order in the buffet will influence the childrens’ choices\n¢ The difference is that: ¢ The difference is that: — insome cases, she can use her knowledge about the childrens’\nbehavior to achieve some goals (maximise their health, the financie\nresults etc)",
+    "type": "list-item",
+    "page": 21,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 35,
+    "text": "* please notice: what goals are worth pursuing is a completely different\nmatter, outside of our perimeter of interest in this course",
+    "type": "list-item",
+    "page": 21,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 36,
+    "text": "— in other cases (e.g., random order) she does not pursue any goal WHO |S CAROL?",
+    "type": "list-item",
+    "page": 21,
+    "entities": [
+      {
+        "text": "CAROL",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 37,
+    "text": "CHOIC\n\nE ARCHIT\n\nECTS > CAROL IS: — ateam leader e andthe children are the team members — amanager > and the children are the employees, the customers — acity mayor, or a prime minister e andthe children are the citizens CAROL IS ANYBODY THAT CREATE OR INFLUENCE THE CONTEXT IN\nWHICH OTHERS MAKE DECISIONS (regardless of hierarchical position: a collaborator may indeed\ninfluence the context of his / her boss’ decision) CAROL is also the «PRESENT YOU» and the child is the «FUTURE YOU»\nbecause YOU CREATE THE CONTEXT IN WHICH YOU WILL MAKE\nDECISIONS IN THE FUTURE",
+    "type": "section-header",
+    "page": 22,
+    "entities": [
+      {
+        "text": "CAROL",
+        "label": "PERSON"
+      },
+      {
+        "text": "— ateam",
+        "label": "PERSON"
+      },
+      {
+        "text": "— amanager",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 38,
+    "text": "l\n\n—\n\nVANC\n\nOF CONT\n\nEXT AN\n\nD CHOIC\n\nE ARCHIT\n\nCTUR So, the «CONTEXT» in which we make decisions is very important, because - often it will have a significant influence in our choices\n\n7 RDFEAK \\AIFA ALTA nNKRE WATaTa AF ciich Infly Anca",
+    "type": "section-header",
+    "page": 23,
+    "entities": [
+      {
+        "text": "RDFEAK",
+        "label": "ORG"
+      },
+      {
+        "text": "ALTA",
+        "label": "ORG"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 39,
+    "text": "- often it will have a significant influence in our choices - often we are not aware of such influence - often a small difference in the context may have significant behavioral\neffects and consequences - often asmall difference in the context may have significant behavioral\neffects and consequences - the example of affordances for physical objects (Gibson, 1979) affordances, stove and knobs ©O@C)",
+    "type": "list-item",
+    "page": 23,
+    "entities": [
+      {
+        "text": "Gibson",
+        "label": "PERSON"
+      },
+      {
+        "text": "1979",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 40,
+    "text": "WHAT KIN\n\nD OF «\n\nECISION CONT\n\nEXT» AR\n\nW\n\nTALKING A\n\nBOUT? - Information we have / receive / search * the way information is collected, communicated * the way the problem is presented, described > social interactions * the relationship with colleagues, collaborators, leaders, customers\netc culture and norms (at the organizational and social level) -culture and norms (at the organizational and social level)\nertiles nrocedijres. incentives. symbols. traditions etc * rules, procedures, incentives, symbols, traditions etc. * including rules and procedure for making decisions that are accepted\nand utilized in the organization * the physical layout / environment of work -the physical layout / environment of work\n\neR AARC Ry IAingc lamhte frninrc ntr * spaces, buildings, lights, colors etc",
+    "type": "text",
+    "page": 24,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 41,
+    "text": "Nudge\n\nImproving essione About\n“eh, Wea and Happine\n\n“Wihind Talend CR Seon Behavioral Sciences and the debate about «Paternalism» The «Nudge» approach (Thaler, Sunstein) aims at creating a\n«decision environment» (choice architecture) for people so that\nthey will be «nudged» to make better decisions (in their own\n\ninterests) while, at the same time, remaining free to choose\nwhatever they want",
+    "type": "picture",
+    "page": 25,
+    "entities": [
+      {
+        "text": "Wea",
+        "label": "PERSON"
+      },
+      {
+        "text": "Nudge",
+        "label": "WORK_OF_ART"
+      },
+      {
+        "text": "Thaler",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sunstein",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 42,
+    "text": "> Thaler and Sunstein call this approach «Libertarian Paternalism» Thaler and Sunstein call this approach «Libertarian Paternalism»\n— it may sound like an oxymoron (a self-contradicting term)\n— why paternalistic? why libertarian?",
+    "type": "list-item",
+    "page": 25,
+    "entities": [
+      {
+        "text": "Thaler",
+        "label": "PERSON"
+      },
+      {
+        "text": "Sunstein",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 43,
+    "text": "a De Dee\n\n— it may sound like an oxymoron (a self-contradict\n— why paternalistic? why libertarian? — it may sound like an oxymoron (a self-contradicting term)\n— why paternalistic? why libertarian? — why paternalistic? why libertarian? © Is this a good thing or a bad thing? e What are the alternatives? > First, let's see what the nudging approach is and what it is based\non",
+    "type": "list-item",
+    "page": 25,
+    "entities": [
+      {
+        "text": "a De Dee",
+        "label": "PERSON"
+      },
+      {
+        "text": "First",
+        "label": "ORDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 44,
+    "text": "THINKING,\nFAST m SLOW\nf:\nDANIEL\nKAHNEMAN\n\nWINNER OF THE NOBEL PRIZE IN ECONOM A crucial distinction: thinking fast and slow SYSTEM «2» e SYSTEM «1» SYSTEM «1»\n\n— Based on intuitions, hunches, gut feelings\n\n— Unconscious, implicit, context-dependent\n— Fast * These two modalities always cohexist, to some extent e |hese two modalities always conexist, to some extent\n\n* However, one can be more influential than the other, depending on the\nsituation",
+    "type": "picture",
+    "page": 26,
+    "entities": [
+      {
+        "text": "DANIEL",
+        "label": "PERSON"
+      },
+      {
+        "text": "KAHNEMAN",
+        "label": "PERSON"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 45,
+    "text": "* However, one can be more influential than the other, depending on the\nsituation * We tend to underestimate the relevance of system 1; it is implicit and\nunconscious, so we don't control it, thus we tend to neglect its relevance",
+    "type": "list-item",
+    "page": 26,
+    "entities": [
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 46,
+    "text": "System 1 nudges examples https://www.caranddriver.com/features/a253 78462/road-design-for-safer-driving/ B Accidents @ Fatalitie:\n\n3,000\n\n2,000\n\n1,000",
+    "type": "section-header",
+    "page": 27,
+    "entities": [
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3,000",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2,000",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1,000",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 47,
+    "text": "System 2 nudges examples Pure system 2 a combination of S1 and $2 12% Total Fat 89\n\n12% Total Carbs 379\nSugars 1g\nProtein 3g\n\nAVOID TOO MUCH:\n5% Saturated Fat 1g\nTrans Fat 09\n0% Cholesterol Omg\n7% Sodium 160mg\nAdded Sugars 0g\n\nGET ENOUGH:\n14% Fiber 4g\n10% Vitamin D 2mog\n20% Calcium 260mg\n45% tron 8mg\n5% Potassium 235mg\n\n* Footnote on Daily Values (OV) and calorie\nteterence to be inserted here.\n\nA",
+    "type": "section-header",
+    "page": 28,
+    "entities": [
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "MONEY"
+      },
+      {
+        "text": "12%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "89\n\n",
+        "label": "PERCENT"
+      },
+      {
+        "text": "12%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "379",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1g",
+        "label": "PERCENT"
+      },
+      {
+        "text": "3g",
+        "label": "PERCENT"
+      },
+      {
+        "text": ":\n5%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "1g",
+        "label": "PERCENT"
+      },
+      {
+        "text": "09\n0%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "7%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "160mg",
+        "label": "PERCENT"
+      },
+      {
+        "text": ":\n14%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "4g",
+        "label": "PERCENT"
+      },
+      {
+        "text": "10%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "20%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "260mg\n45%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "8mg\n5%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "235mg",
+        "label": "PERCENT"
+      },
+      {
+        "text": "Daily",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 48,
+    "text": "Fat\n\nSaturates\n\nSalt\nHIGH lm MEDIUM li LOW",
+    "type": "picture",
+    "page": 28,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 49,
+    "text": "Other examples ° «System 1nudging»: the focus is on the behavior and on leveraging ot\nintuitive (Unconscious) processes » the «Save More Tomorrow» program utilizes well known psychological\nphenomena like time discounting bias, status quo bias etc » Some critics believe that this approach is not so «libertarian» because it\nhas a direct influence on the outcome of people's decisions",
+    "type": "section-header",
+    "page": 29,
+    "entities": [
+      {
+        "text": "Save More Tomorrow",
+        "label": "WORK_OF_ART"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 50,
+    "text": "* «System 2 nudging»: the focus is on improving the people's ability to\nmake better conscious decisions, through » better / simplified information » better / simplified decision mechanisms » warnings, reminders, feedbacks etc » This is obviously a better approach in «philosophical» terms (decreasing the\ndirect influence on the outcomes of people's decisions and behaviors and\npreserving a deeper sense of choice «freedom»)",
+    "type": "list-item",
+    "page": 29,
+    "entities": [
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 51,
+    "text": "» However, system 2 approaches are usually not as effective and / or as easy to\nimplement as the more «implicit nudges»",
+    "type": "list-item",
+    "page": 29,
+    "entities": [
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 52,
+    "text": "What alternatives do we have? * Knowledge about people's behavior and how they make choices is\njust a «tool», just an «instrument» — Like any instrument, it can be used for good or bad purposes — There is nothing intrinsically positive or negative in such knowledge. it is just\na matter of how it is used",
+    "type": "text",
+    "page": 30,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 53,
+    "text": "> And... what is the alternative? Could we design contexts that have\nNO INFLUENCE whatsoever on people's behavior? — itis very difficult, very often it is quite impossible (Carol has to put the foods\nsomewhere ...) — the alternative to such knowledge is simply ... ignorance — ignorance leads to designing policies and contexts without knowing what ar:\ntheir behavioral consequences, and such policies may have negative /\nuninteded effects because context in which behaviors happen is ignored",
+    "type": "list-item",
+    "page": 30,
+    "entities": [
+      {
+        "text": "Carol",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 54,
+    "text": "— policies can be much more effective if we know what kind of context will\nincrease / decrease their effectiveness",
+    "type": "list-item",
+    "page": 30,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 55,
+    "text": "e EFFECTIVENESS IS ALWAYS CONTEXT-DEPENDENT — what works in one context may not work in another — this is not a weakness (as it may appear), but an intrinsic feature of the approach and the\nfundamental basis of its effectiveness",
+    "type": "section-header",
+    "page": 31,
+    "entities": [
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 56,
+    "text": "- this is not a weakness (as it may appear), but an intrinsic feature of the approach and the\nfundamental basis of its effectiveness",
+    "type": "text",
+    "page": 31,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 57,
+    "text": "— the nudging approach, by definition, is an intervention that changes the context (the\n«choice architecture») in order to change behavior. Thus, it requires a specific evaluation or\nthe nature of the context and «customized» changes to the context itself",
+    "type": "list-item",
+    "page": 31,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 58,
+    "text": "— LONG TERM EFFECTIVENESS — Data are still not fully conclusive, but we can say that long term effectiveness is more likely — Data are still not fully conclusive, but we can say that long term effectiveness is more likely if * Newhabits and automatic behaviors are created (System 1) « New knowledge, competence, awareness is created (System 2) — Thus, nudging can generate and crystallize learning process of various kinds, and when this\nhappens, the positive effects can be sustained in the long term",
+    "type": "section-header",
+    "page": 31,
+    "entities": [
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 59,
+    "text": "— Many examples around the world (more on this later)",
+    "type": "list-item",
+    "page": 31,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "01 - Introduction to Decision Making.pdf",
+    "chunk_id": 60,
+    "text": "OUR L\n\nEARNING PATH ON\n\nD\n\nECISION MAKING Defining problems and\ngoals Collecting and\nconsidering information Generating ideas and\njudgements Evaluating and choosing\noptions",
+    "type": "section-header",
+    "page": 32,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 61,
+    "text": "ORGANIZATIONAL BEHAVIOR AND HUMAN\nRESOURCE MANAGEMENT prof. Giovanni Masino\nUniversity of Ferrara",
+    "type": "text",
+    "page": 0,
+    "entities": [
+      {
+        "text": "Giovanni Masino",
+        "label": "PERSON"
+      },
+      {
+        "text": "University of Ferrara",
+        "label": "ORG"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 62,
+    "text": "PROSP\n\nCT TH\n\nORY AN\n\nD RISK AV\n\nERSION ECONOMETRICA Votume 47 Marc. 1979 NUMBER 2? PROSPECT THEORY: AN ANAL YSIS OF DECISION LINDER RISK * We tend to be risk (uncertainty) takers when\n\nwe expect a loss By DANIEL KAHNEMAN AND Amos Tversey, This paper presents a critique of expected utility theory as a descriptive model of\ndecision making under risk, and develops an alternative model, called prospect theory\n\nChoices among risky prospects exhibit several pervasive effects that are inconsistent with\nthe basic tenets of utility theory, In particular, people underweight outcomes that are\nmerely probable in comparison with outcomes that are obtained with certainty. This\ntendency, called the certainty effect, contributes to risk aversion in choices involving sure\ngains and to risk seeking in choices involving sure losses. In addition, people generally\ndiscard components that are shared by all prospects under consideration. This tendency,\ncalled the isolation effect, leads to inconsistent preferences when the same choice is\npresented in different forms. An alternative theory of choice is devcloped, in which value\nis assigned to gains and losses rathcr than to final assets and in which probabilities are\nreplaced by decision weights. The value function is normally concave for guins, commonly\nconvex for losses, and is generally steeper for losses than for gains. Decision weights are\ngenerally lower than the corresponding probabilities, except in the range of low prob-\nabilities. Overweighting of low probabilities may contribute to the attractiveness of both\nSacaaisnibieih tain wibeahliion",
+    "type": "text",
+    "page": 4,
+    "entities": [
+      {
+        "text": "47",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "Marc",
+        "label": "PERSON"
+      },
+      {
+        "text": "1979",
+        "label": "DATE"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "DANIEL KAHNEMAN",
+        "label": "PERSON"
+      },
+      {
+        "text": "Amos Tversey",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 63,
+    "text": "— Even small negative variations (losses) are\nperceived as very significant —We «desperately» try to avoid losses. Thus, we\nare more willing to accept uncertainty / risk if that\ngives us a chance to avoid the loss",
+    "type": "list-item",
+    "page": 4,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 64,
+    "text": "1. INTRODUCTION EXPECTED UTILITY THEORY has dominated the analysis of decision making under\nrisk. It has been generally accepted as a normative model of rational choice [24],\nand widely applied as a descriptive model of economic behavior, e.g. [15, 4].\nThus, itis assumed that all reasonable people would wish to obey the axioms of the\nESE FO BRT SE RIT. ae ASE ES EPS TE PaRe Y",
+    "type": "section-header",
+    "page": 4,
+    "entities": [
+      {
+        "text": "1.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "24",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 65,
+    "text": "The present paper describes several classes of choice problems in which\npreferences systematically violate the axioms of expected utility theory. In the\night of these observations we argue that utility theory, as it is commonly\ninterpreted and applied, is not an adequate descriptive model and we propose an\nalternative eecouat of holes under tisk.",
+    "type": "text",
+    "page": 4,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 66,
+    "text": "* We tend to be risk (uncertainty) averse when\n\nwe expect a gain 2 ecRITIOU Decision making under risk can be viewed as a choice between prospects or\ngambles. A prospect (x1, p1;... ; Xm Pa) is a contract that yields outcome x; with\nprobability p, where pi+p2+...+p,=1. To simplify notation, we omit null\noutcomes and use (x, p) to denote the prospect (x, p; 0, 1p) that yields x with\nprobability p and 0 with probability 1—p. The (riskless) prospect that yields x\nwith certainty is denoted by (x). The present discussion is restricted to prospects\nTETAS I hey BO RPTL RD Ae EE TET",
+    "type": "list-item",
+    "page": 4,
+    "entities": [
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "0",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 67,
+    "text": "—When expected gain increases, its perceived\nvalue decreases ‘The application of expected utility theory to choices between prospects is based\nsik ds Ra Miedeiicaa Wai adieaia (i) Expectation: U(x), p;\n\npyulxy)+... +p,ulx,).\n\n3 Xes Pa’ * This work was supported in part by grants from the Harry F. Guggenheim Foundation and from\nthe Advanced Research Projects Agency of the Department of Defense and was monitored by Office\nof Naval Research under Contract NO0014-78-C-0100 (ARPA Order No. 3469) under Subcontract\n78-072-0722 from Decisions and Designs, Inc. to Perceptronics, Inc. We also thank the Center for\nAdimensed Ghade tn tin Belaistocel Gelentech at Stables tar ts waned’.",
+    "type": "list-item",
+    "page": 4,
+    "entities": [
+      {
+        "text": "the Harry F. Guggenheim Foundation",
+        "label": "ORG"
+      },
+      {
+        "text": "the Advanced Research Projects Agency",
+        "label": "ORG"
+      },
+      {
+        "text": "the Department of Defense",
+        "label": "ORG"
+      },
+      {
+        "text": "Office\nof Naval Research",
+        "label": "ORG"
+      },
+      {
+        "text": "Contract NO0014-78-C-0100 (",
+        "label": "LAW"
+      },
+      {
+        "text": "Subcontract\n78",
+        "label": "LAW"
+      },
+      {
+        "text": "Decisions and Designs, Inc.",
+        "label": "ORG"
+      },
+      {
+        "text": "Perceptronics, Inc.",
+        "label": "ORG"
+      },
+      {
+        "text": "the Center for\nAdimensed Ghade",
+        "label": "ORG"
+      },
+      {
+        "text": "Stables",
+        "label": "FAC"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 68,
+    "text": "—Thus, if higher gain is associated with lower\nprobabilities, we prefer a lower gain with higher\nprobability",
+    "type": "list-item",
+    "page": 4,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 69,
+    "text": "Prospect Theory, in summary t td tied a Ah in\n- decreasing increase of perceived value\n- less propensity to uncertainty\n\nperceived\n\nlosses\n\nreference point\n\n- loss aversion\n-morepropensiyto = =)» J.----------\n\nuncertainty -30\n\nperceived\nlosses",
+    "type": "section-header",
+    "page": 5,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 70,
+    "text": "NC\n\nPOINTS e The influence of reference points depends on how they are perceivec\ne And that depends heavily on how they are described",
+    "type": "section-header",
+    "page": 6,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 71,
+    "text": "e The influence of reference points depends on how they are perceived\ne And that depends heavily on how they are described",
+    "type": "text",
+    "page": 6,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 72,
+    "text": "e You have to decide whether to pay with credit card or cash for a\ncertain purchase. When the extra cost (for the use of the credit card)\nis described as “surcharge for credit card payment’, people are less\nlikely to use the credit card, as compared to situations where the\nsame cost is described as “discount for cash payment’",
+    "type": "list-item",
+    "page": 6,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 73,
+    "text": "e Inthe FIRST case, the option is desribed in terms of an additional\nloss. In the SECOND case, the option is described as a missed gain\nem ran ,~ANDITIONIAIL | MCC. ice pmrarn nain£fiil. fFAaKn 7a /~ANAICCEN CAINIG",
+    "type": "list-item",
+    "page": 6,
+    "entities": [
+      {
+        "text": "FIRST",
+        "label": "ORDINAL"
+      },
+      {
+        "text": "SECOND",
+        "label": "ORDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 74,
+    "text": "e Remember: we are loss averse !!!!",
+    "type": "list-item",
+    "page": 6,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 75,
+    "text": "Exercise 2A You are an oncologist. You have to choose the best cure to\ntreat liver tumor. Actual, reliable statistics show that:",
+    "type": "section-header",
+    "page": 7,
+    "entities": [
+      {
+        "text": "2A",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 76,
+    "text": "Dut of 100 people subjected to surgery, 10 die during the\noperation, 32 die within 1 year, and 66 die within five\nyears.",
+    "type": "text",
+    "page": 7,
+    "entities": [
+      {
+        "text": "100",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "10",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "32",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1 year",
+        "label": "DATE"
+      },
+      {
+        "text": "66",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "five\nyears",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 77,
+    "text": "Se EE eS) eee EO\n\noperation, 32 die within 1 year, and 66 die within five\nyears.\n\nOut of 100 people subjected to radiations, no one dies\nduring the treatment, 23 die within 1 years, 78 die within\nfive years.",
+    "type": "text",
+    "page": 7,
+    "entities": [
+      {
+        "text": "32",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1 year",
+        "label": "DATE"
+      },
+      {
+        "text": "66",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "five\nyears",
+        "label": "DATE"
+      },
+      {
+        "text": "100",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "23",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1 years",
+        "label": "DATE"
+      },
+      {
+        "text": "78",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "five years",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 78,
+    "text": "Out of 100 people subjected to radiations, no one dies\nduring the treatment, 23 die within 1 years, 78 die within\nfive years.",
+    "type": "text",
+    "page": 7,
+    "entities": [
+      {
+        "text": "100",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "23",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "1 years",
+        "label": "DATE"
+      },
+      {
+        "text": "78",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "five years",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 79,
+    "text": "Exercise 2 You are an oncologist. You have to choose the best cure t\ntreat a liver tumor. Actual, reliable statistics data show\nthat:",
+    "type": "section-header",
+    "page": 8,
+    "entities": [
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 80,
+    "text": "Out of 100 people subjected to surgery, 90 survive the\noperation, 68 survive for at least 1 year, and 34 survive\nfor at least five years.",
+    "type": "text",
+    "page": 8,
+    "entities": [
+      {
+        "text": "100",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "90",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "68",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "at least 1 year",
+        "label": "DATE"
+      },
+      {
+        "text": "34",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "at least five years",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 81,
+    "text": "Out of 100 people subjected to radiations, all of them\nsurvive the treatment, 77 survive for at least 1 year, 22\nsurvive for at least five years.",
+    "type": "text",
+    "page": 8,
+    "entities": [
+      {
+        "text": "100",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "77",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "at least 1 year",
+        "label": "DATE"
+      },
+      {
+        "text": "22",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "at least five years",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 82,
+    "text": "What do you suggest to your patients?",
+    "type": "text",
+    "page": 8,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 83,
+    "text": "EXPERT PEOPLE CHOOSE DIFFERENTLY\nWHEN ASKED THE SAME IMPORTANT QUESTION,\nWITH THE SAME DATA!!!",
+    "type": "text",
+    "page": 9,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 84,
+    "text": "FRAMING PRO\n\nBLE —When we try to solve a problem or make a decision, we have to\n«frame» it somehow, whether we are aware of it or not ...",
+    "type": "section-header",
+    "page": 10,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 85,
+    "text": "* Carol has to put the food somewhere ... —We need to choose: - our goals - how we define or measure success / failure - the words we use - the measurement units - the metaphors - what is pertinent and what is not ~So, we need to be well aware about the consequences (in terms\nof thinking and choosing) of the kind of frame we choose",
+    "type": "list-item",
+    "page": 10,
+    "entities": [
+      {
+        "text": "Carol",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 86,
+    "text": "—So, we need to be well aware about the consequences (in terms\nof thinking and choosing) of the kind of frame we choose",
+    "type": "text",
+    "page": 10,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 87,
+    "text": "TWO CLASSIC MANAG\n\nM\n\nNT FRAM\n\nS different ways to think about the same problem The “OPPORTUNITY” frame makes you\nthink about a possibile positive outcome The “THREAT” frame makes you think\nabout a possibile negative outcome",
+    "type": "section-header",
+    "page": 11,
+    "entities": [
+      {
+        "text": "TWO",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "NT",
+        "label": "ORG"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 88,
+    "text": "Other Examples and Implications for Management ° CHANGE MANAGEMENT * Usually, the expectations of «gain» from a significant change in the work\nsetting needs to be perceived as significantly superior to the status quo\n(1.5 to 2.5 times higher) to induce people to overcome their loss\naversion (which, in this case, can be seen as resistance to change)",
+    "type": "section-header",
+    "page": 12,
+    "entities": [
+      {
+        "text": "1.5 to 2.5",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 89,
+    "text": "* Loss averson increases (not necessarily in a proportional way) with the\nstakes. When the stakes are high, it is particularly important to carefully\nframe the proposed change, especially if the proposed change may lead\nto potential losses",
+    "type": "list-item",
+    "page": 12,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 90,
+    "text": "* Individuals matter: different people (depending on personality traits,\nexperiences etc) may be more or less resistent to change.",
+    "type": "list-item",
+    "page": 12,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 91,
+    "text": "PROSP\n\nCT TH\n\nORY AN\n\nDN\n\nEGOTIATION > The behavior of negotiators changes dramatically depending on the frame (gain /\nloss) that they adopt * ina loss frame, negotiators become more risk seeking, more aggressive, they make\nless concessions — the opposite happens with a gain frame > in aloss frame, concessions are perceived as losses, so they are valued much more\n(about double!) than the value attributed by the counterpart (which perceives them\nas gains)",
+    "type": "section-header",
+    "page": 13,
+    "entities": [
+      {
+        "text": "aloss",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 92,
+    "text": "such a difference in framing makes reaching an agreement much more diff — often, a gain frame on both sides helps reaching an agreement > when a loss frame is present, buyers make lower counter-offers and the number of\ncounter-offers increases. The process becomes longer.",
+    "type": "list-item",
+    "page": 13,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 93,
+    "text": "«)@)C)",
+    "type": "picture",
+    "page": 13,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 94,
+    "text": "PROSP\n\nCT TH\n\nORY, JO\n\nB SATISFACTION and MOTIVATION * Heath, Knez, and Camerer (1993): employees get “accustomed” to prices\nand financial incentives: when these are eliminated or reduced, a “loss” is\nperceived and motivation decreases significantly",
+    "type": "text",
+    "page": 14,
+    "entities": [
+      {
+        "text": "Heath",
+        "label": "PERSON"
+      },
+      {
+        "text": "Knez",
+        "label": "PERSON"
+      },
+      {
+        "text": "Camerer",
+        "label": "PERSON"
+      },
+      {
+        "text": "1993",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 95,
+    "text": "» Heath, Knez, and Camerer (1993): employees get “accustomed” to prices\nand financial incentives: when these are eliminated or reduced, a “loss” is\nperceived and motivation decreases significantly",
+    "type": "text",
+    "page": 14,
+    "entities": [
+      {
+        "text": "Heath",
+        "label": "PERSON"
+      },
+      {
+        "text": "Knez",
+        "label": "PERSON"
+      },
+      {
+        "text": "Camerer",
+        "label": "PERSON"
+      },
+      {
+        "text": "1993",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 96,
+    "text": "—THIS IS EXTREMELY IMPORTANT; MORE ON THIS LATER DURING OUR\nCOURSE > van Buiten and Keren (2009): language is very important in framing van Buiten and Keren (2009): language is very important in framing\n\n—language evoking a loss is much more effective in convincing people to\naccept riskier options (and viceversa)",
+    "type": "list-item",
+    "page": 14,
+    "entities": [
+      {
+        "text": "Buiten",
+        "label": "PERSON"
+      },
+      {
+        "text": "Keren",
+        "label": "PERSON"
+      },
+      {
+        "text": "2009",
+        "label": "DATE"
+      },
+      {
+        "text": "van Buiten",
+        "label": "PERSON"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 97,
+    "text": "—language evoking a loss is much more effective in convincing people to\naccept riskier options (and viceversa) * Coughlan and Connolly (2001): satisfaction for a certain work performance\nis influenced by the type of reference that is has been used",
+    "type": "list-item",
+    "page": 14,
+    "entities": [
+      {
+        "text": "Coughlan",
+        "label": "PERSON"
+      },
+      {
+        "text": "Connolly",
+        "label": "PERSON"
+      },
+      {
+        "text": "2001",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 98,
+    "text": "> Coughlan and Connolly (2001): satisfaction for a certain work performance\nis influenced by the type of reference that is has been used",
+    "type": "text",
+    "page": 14,
+    "entities": [
+      {
+        "text": "Coughlan",
+        "label": "PERSON"
+      },
+      {
+        "text": "Connolly",
+        "label": "PERSON"
+      },
+      {
+        "text": "2001",
+        "label": "DATE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 99,
+    "text": "—the same DECREASE / INCREASE in performance is perceived (in terms of\nDISSATISFACTION / SATISFACTION) more or less strongly depending on\nthe fact that the reference (expectation) suggests a negative (loss) or a\npositve (gain) frame",
+    "type": "list-item",
+    "page": 14,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 100,
+    "text": "EXAMPL\n\nES of LOSS AV\n\nERSION and FRAMING in HR MANAG\n\nNT (1) * Scenario: HR may propose a new compensation system (e.g.,\nshifting from fixed salary to performance-based bonuses).\n\nHow would you design / frame this proposal to make it more\nacceptable, given what you just learned about loss aversion anc\nframing?",
+    "type": "text",
+    "page": 15,
+    "entities": [
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 101,
+    "text": "* Some employees may resist the change because they fear losing their\nguaranteed salary, even if the new structure could lead to higher overall\npay if performance targets are met.",
+    "type": "list-item",
+    "page": 15,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 102,
+    "text": "* Loss Aversion: People tend to prefer the certainty of their current, known\nsalary over the uncertain but potentially better earnings under the new\nsystem. The fear of losing what they currently have outweighs the potentia\nbenefit. So, how would you avoid that resistance?",
+    "type": "list-item",
+    "page": 15,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 103,
+    "text": "(<) Gs) C)",
+    "type": "picture",
+    "page": 15,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 104,
+    "text": "EXAMPL\n\nES of LOSS AV\n\nERSION and FRAMING in HR MANAG\n\nNT (2) * Scenario: During organizational restructuring, managers ma\\\nresist eliminating redundant roles because of fear of losing\nimportant knowledge or the risk of impacting team morale.\nEven though restructuring could lead to better efficiency anc\ncost savings, the perceived loss of knowledge and morale\ngenerates reluctance and inertia.",
+    "type": "section-header",
+    "page": 16,
+    "entities": [
+      {
+        "text": "2",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 105,
+    "text": "* Loss Aversion: The potential short-term loss (reduced knowledge and\nmorale) is weighted more heavily than the long-term gains (greater\nefficiency). This leads to the retention of redundant roles longer than\nnecessary.",
+    "type": "list-item",
+    "page": 16,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 106,
+    "text": "EXAMPL\n\nES of LOSS AV\n\nERSION and FRAMING in HR MANAG\n\nNT (3) * Scenario: Managers may avoid having difficult conversations\nwith employees about their poor performance because of\nfear of damaging relationships or causing discomfort. Even\nthough confronting the issues with employees could improve\nteam productivity, managers may fear the loss of goodwill,\nharmony, or employee engagement.",
+    "type": "section-header",
+    "page": 17,
+    "entities": [
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 107,
+    "text": "* Loss Aversion: The potential \"loss\" of a good relationship or team\ncohesion seems more immediate and painful than the potential long-term\ngains of improved performance through honest feedback.",
+    "type": "list-item",
+    "page": 17,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 108,
+    "text": "FRAMING AN\n\nBUSIN\n\nESS STRAT GENERAL MOTOR: 2. Success do not come from tecnological leadership, but from quickly\nadopting innovations developed by others 3. Cars are status symbols. Style is more important than quality. Users\ntrade up well before quality becomes a problem",
+    "type": "section-header",
+    "page": 18,
+    "entities": [
+      {
+        "text": "2.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 109,
+    "text": "4. US market is isolated. No foreign competitor will never be able to\nacquire more than 15% of the US market",
+    "type": "list-item",
+    "page": 18,
+    "entities": [
+      {
+        "text": "4",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "US",
+        "label": "GPE"
+      },
+      {
+        "text": "more than 15%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "US",
+        "label": "GPE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 110,
+    "text": "T\n\nZz\n\nDOWM\n\nNT\n\nFF\n\nCT (Knetsch, 1989) SNICKERS 50% of randomly selected people given a mug, and 50% a\ncandy bar MONEY BACK\nGUARANTEE\n\n> ~—-“@ - objects of similar value when asked if they wanted to switch, almost nobody did - mug owners valued mugs much more than candy bars - candy bar owners valued candy bars much more than mug {«) @0) ©) Prof. Giovanni Masino\nUniversity of Ferrara",
+    "type": "section-header",
+    "page": 19,
+    "entities": [
+      {
+        "text": "Zz",
+        "label": "PERSON"
+      },
+      {
+        "text": "DOWM",
+        "label": "PERSON"
+      },
+      {
+        "text": "NT",
+        "label": "PERSON"
+      },
+      {
+        "text": "CT",
+        "label": "PERSON"
+      },
+      {
+        "text": "Knetsch",
+        "label": "ORG"
+      },
+      {
+        "text": "1989",
+        "label": "DATE"
+      },
+      {
+        "text": "50%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "50%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "Giovanni Masino",
+        "label": "PERSON"
+      },
+      {
+        "text": "University of Ferrara",
+        "label": "ORG"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 111,
+    "text": "T\n\nTICK\n\nT\n\nXP\n\nRIM\n\nNT (\n\nD. Ariely) CAROLINA\n\nTHURSDAY © 200 Fed,\n\nFEERULAY 9, 200T\n\n)\n\nay\naed 3 | '\n\nBaie\n\ni FS\n2016-17 nageer\n\nsee ot Seat\n1 Pp 16\n\npuscr $458.00 '\n\nCAMEROM INDOOR STADIUM\n\nGAME 15,\n\n|",
+    "type": "section-header",
+    "page": 20,
+    "entities": [
+      {
+        "text": "T\n\nTICK\n\nT",
+        "label": "PERSON"
+      },
+      {
+        "text": "XP",
+        "label": "PERSON"
+      },
+      {
+        "text": "NT",
+        "label": "PERSON"
+      },
+      {
+        "text": "D. Ariely",
+        "label": "GPE"
+      },
+      {
+        "text": "THURSDAY © 200 Fed",
+        "label": "DATE"
+      },
+      {
+        "text": "FEERULAY 9",
+        "label": "DATE"
+      },
+      {
+        "text": "2016-17",
+        "label": "DATE"
+      },
+      {
+        "text": "nageer",
+        "label": "ORG"
+      },
+      {
+        "text": "16",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "458.00",
+        "label": "MONEY"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 112,
+    "text": "explanations (rationalizations) wildly differed:\n\n- people with tickets explained how valuable that experience\nwould be for them, well worth a lot of money\n\n- people without tickets explained that it was not worth too much\nfor them, and experiencing the game in a different setting (at a\nbar, from tv etc) and saving money would be the most sensible\nchoice",
+    "type": "text",
+    "page": 20,
+    "entities": [
+      {
+        "text": "a",
+        "label": "ORG"
+      },
+      {
+        "text": "bar",
+        "label": "ORG"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 113,
+    "text": "we tend to adjust our reference to what we have in the present moment 2500\n\n2000\n\n1500\n\n1000\n\n500\n\nMask price m bid price\n\nDUKE\n\nS016-1F 1ASHETAAL\n\nabe Row Seay\n\n1 P 16\n4 CAMERON IADOOR: STADIU,\n| GAME 15",
+    "type": "text",
+    "page": 20,
+    "entities": [
+      {
+        "text": "15",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 114,
+    "text": "People with tickets",
+    "type": "caption",
+    "page": 20,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 115,
+    "text": "FRAMING AN\n\nD PU\n\nBLIC POLICY » ASurvey among British citizens, just before the BREXIT vote * Do you support or oppose reducing the voting age from 18 to 16 in the referendum\non Britain's membership of the EU?",
+    "type": "section-header",
+    "page": 21,
+    "entities": [
+      {
+        "text": "British",
+        "label": "NORP"
+      },
+      {
+        "text": "18 to 16",
+        "label": "DATE"
+      },
+      {
+        "text": "Britain",
+        "label": "GPE"
+      },
+      {
+        "text": "EU",
+        "label": "ORG"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 116,
+    "text": "* SUPPORT 37%, OPPOSE 56% * Do you support or oppose giving 16 and 17 year olds the right to vote in the\nreferendum on Britain's membership of the EU?",
+    "type": "list-item",
+    "page": 21,
+    "entities": [
+      {
+        "text": "37%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "56%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "16 and 17 year olds",
+        "label": "DATE"
+      },
+      {
+        "text": "Britain",
+        "label": "GPE"
+      },
+      {
+        "text": "EU",
+        "label": "ORG"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 117,
+    "text": "* SUPPORT 52%, OPPOSE 41% ¢ FIRST FRAME is mostly interpreted as a loss, a reduction, a «threat * FIRST FRAME is mostly interpreted as a loss, a reduction, a «threat» to the status quo\n¢ SECOND FRAME is mostly interpreted as a gain, an extension of rights",
+    "type": "list-item",
+    "page": 21,
+    "entities": [
+      {
+        "text": "52%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "41%",
+        "label": "PERCENT"
+      },
+      {
+        "text": "FIRST",
+        "label": "ORDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 118,
+    "text": "* FIRST FRAME is mostly interpreted as a loss, a reduction, a «threat» to the status quo\n* SECOND FRAME is mostly interpreted as a gain, an extension of rights",
+    "type": "list-item",
+    "page": 21,
+    "entities": [
+      {
+        "text": "FIRST",
+        "label": "ORDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 119,
+    "text": "A a as iit\n\n* SECOND FRAME is mostly interpreted as a gain, an extension of rights * SECOND FRAME is mostly interpreted as a gain, an extension of rights",
+    "type": "list-item",
+    "page": 21,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 120,
+    "text": "Figure 1. Respondents views on lowering the voting age ina 2015\n\nIpsos MORI! poll",
+    "type": "text",
+    "page": 22,
+    "entities": [
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2015",
+        "label": "DATE"
+      },
+      {
+        "text": "Ipsos",
+        "label": "ORG"
+      },
+      {
+        "text": "!",
+        "label": "ORG"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 121,
+    "text": "THE (SOMETIMES PARADOXICAL) INFLUENCE OF REFERENCE POINTS e Astudy by Camerer et al (1997) on New York taxi drivers ¢ Taxi drivers can freely choose how many hours to work each day > Research shows that they use a specific income target (a reference) in order to decide\nwhen to stop working",
+    "type": "text",
+    "page": 23,
+    "entities": [
+      {
+        "text": "Astudy",
+        "label": "PERSON"
+      },
+      {
+        "text": "Camerer",
+        "label": "PERSON"
+      },
+      {
+        "text": "1997",
+        "label": "DATE"
+      },
+      {
+        "text": "New York",
+        "label": "GPE"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 122,
+    "text": "— Stopping below the target is very «painful» (loss aversion) — Stopping above the target is pleasurable, but the positive feeling is less intense (given the same\ndifference between actual achieved income and target) than the negative feeling when the target is\nnot yet achieved",
+    "type": "list-item",
+    "page": 23,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 123,
+    "text": "— EXAMPLE: TARGET = 500$ » Stopping at 450$ generates more intense negative feeling than the positive feeling generated\nwhen stopping at 550$ ¢ An unexpected, non rational consequence: - Taxi drivers are more willing to work longer hours when their hourly income is lower!! e Please notice: the same is LESS true for very experienced drivers «)@) ©)",
+    "type": "list-item",
+    "page": 23,
+    "entities": [
+      {
+        "text": "500",
+        "label": "MONEY"
+      },
+      {
+        "text": "450",
+        "label": "MONEY"
+      },
+      {
+        "text": "$",
+        "label": "MONEY"
+      },
+      {
+        "text": "550",
+        "label": "MONEY"
+      },
+      {
+        "text": "hours",
+        "label": "TIME"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 124,
+    "text": "TH\n\nE INFLU\n\nNC\n\nOF M\n\nTAPHORS IN FRAMING * Crime is a {wild beast preying on / virus infecting} the city of Addison. The\ncrime rate in the once peaceful city has steadily increased over the past thre\nyears. In fact, these days it seems that crime is {lurking in / plaguing} every\nneighborhood. In 2004, 46,177 crimes were reported compared to more\nthan 55,000 reported in 2007. The rise in violent crime is particularly\nalarming. In 2004, there were 330 murders in the city, in 2007, there were\nover 500.",
+    "type": "section-header",
+    "page": 24,
+    "entities": [
+      {
+        "text": "Addison",
+        "label": "GPE"
+      },
+      {
+        "text": "the past thre",
+        "label": "DATE"
+      },
+      {
+        "text": "years",
+        "label": "DATE"
+      },
+      {
+        "text": "these days",
+        "label": "DATE"
+      },
+      {
+        "text": "2004",
+        "label": "DATE"
+      },
+      {
+        "text": "46,177",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "more\nthan 55,000",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2007",
+        "label": "DATE"
+      },
+      {
+        "text": "2004",
+        "label": "DATE"
+      },
+      {
+        "text": "330",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "2007",
+        "label": "DATE"
+      },
+      {
+        "text": "500",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 125,
+    "text": "proportion\n\n1.0\n\n0.8\n\n0.6\n\n0.4\n\n0.2\n\n0.0\n\n{-] enforce\n* i reform\n\nbeast virus\n\nProf. Giovanni Ma\n\na Pa ee",
+    "type": "picture",
+    "page": 24,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 126,
+    "text": "ENFORCE: punish, sanction, policing,\netc - REFORM: prevent, change society,\nimprove economic conditions,\neducation, etc",
+    "type": "list-item",
+    "page": 24,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 127,
+    "text": "HOW TO H\n\nLPN\n\nGOTIATIONS THROUGH «REFRAMING» HOW TOH\n\nLP\n\nZz\n\nGOTIATIONS THROUGH «REFRAMING» * A public agency is proposing to develop an area of woodland near a town\nthat has suffered low economic growth. The woodland is considered an aree\nof natural beauty.",
+    "type": "text",
+    "page": 25,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 128,
+    "text": "* The public agency's main frame is one of economic stimulus: by improving\namenities, they may attract more people to the town, creating an economic\nmultiplier effect.",
+    "type": "list-item",
+    "page": 25,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 129,
+    "text": "* On the other side is a national environmental charity that has a strong\npresence in the region. Their frame is environmental: they want the\ndevelopment to protect the quality of the woodland against pollution and\ndecay, so residents can continue to enjoy it for longer. They are concerned\nthat privileging economic growth will harm the local environment.",
+    "type": "list-item",
+    "page": 25,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 130,
+    "text": "The two frames are in conflict and are leading to dispute that seems\nintractable HOW WOULD YOU TRY TO REACH AN AGREEMENT BETWEEN THE TWO\nPARTIES? (<) @) ©)",
+    "type": "list-item",
+    "page": 25,
+    "entities": [
+      {
+        "text": "two",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "TWO",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 131,
+    "text": "1, «FRAME INCORPORATION» * Extending and / or “diluting” one (or both) of the frame(s) so tha\nthey incorporate elements of the other frame, in order to\nincrease the likelihood of finding an acceptable solution for bot\nSubjects. Example:",
+    "type": "section-header",
+    "page": 26,
+    "entities": [
+      {
+        "text": "1",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 132,
+    "text": "* An important part of the environmental frame is the charity's\nconcern that this will set a precedent for future developments ir\nthe region: concern for economic growth, not the environment,\nwould become the guiding principle.",
+    "type": "list-item",
+    "page": 26,
+    "entities": [
+      {
+        "text": "ir",
+        "label": "LOC"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 133,
+    "text": "* The public agency could emphasize the fact that this\ndevelopment is just a pilot that will be evaluated for its impact\n(including on the environment). That move would allow the\ncharity to incorporate into its frame the idea that the\ndevelopment would target economic growth, but only ina\norovisional way.",
+    "type": "list-item",
+    "page": 26,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 134,
+    "text": "2. «FRAM\n\nCONN\n\nCTION» * Both frames are preserved, but a new link is created between\nthem, so they appear to be complementary rather than\nincompatible.",
+    "type": "section-header",
+    "page": 27,
+    "entities": [
+      {
+        "text": "2.",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 135,
+    "text": "° EXAMPLE: * One side would continue to see the policy through an economi\nframe, and the other through an environmental frame.",
+    "type": "list-item",
+    "page": 27,
+    "entities": [
+      {
+        "text": "One",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 136,
+    "text": "* But economic development could be re-framed as a means of\nimproving the local environment - for example, by making it\neasier for local people to invest in sustainable technologies.",
+    "type": "list-item",
+    "page": 27,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 137,
+    "text": "Ifthe public agency needed to go further, they could promise\nthat some form of ‘tourist tax’ will be created and funnelled to a\nfund for this purpose.",
+    "type": "list-item",
+    "page": 27,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 138,
+    "text": "{<) @) ©)",
+    "type": "picture",
+    "page": 27,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 139,
+    "text": "3. «FRAM\n\nE ACCOMO\n\nDATION» * This is where one side (or both) changes their framing to\naccommodate aspects of the opposing frame. ° EXAMPLE ¢ The charity succeeded in re-framing the idea of economic\ndevelopment to include wider concepts of value. For example,\nthe charity could make the case that people would have better\nmental health and social capital if they had better access to the\nenvironment. They could point out that quality of life already\nforms part of the economic assessments in healthcare (as in\n‘quality-adjusted life years’).",
+    "type": "section-header",
+    "page": 28,
+    "entities": [
+      {
+        "text": "3.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 140,
+    "text": "«The public agency might then re-frame its idea of what\n‘economic development’ means. «)@) ©)",
+    "type": "list-item",
+    "page": 28,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 141,
+    "text": "4A. «FRAM * Negotiating subjects try to design policies and decisions in a wal\nthat delivers multiple outcomes, so that different they provide\nacceptable outcomes for different frames.",
+    "type": "section-header",
+    "page": 29,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 142,
+    "text": "- Negotiating subjects try to design policies and decisions in a way\nthat delivers multiple outcomes, so that different they provide\nacceptable outcomes for different frames.",
+    "type": "text",
+    "page": 29,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 143,
+    "text": "* It might be possible to capture the development gain from\ndeveloping part of the wood, use it to enhance the biodiversity\nof the remaining wood, and improve access for local residents\nSo they can enjoy the benefits more - which would deliver\ngreater social benefit than the initial proposal.",
+    "type": "list-item",
+    "page": 29,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 144,
+    "text": "It might be possible to capture the development gain from\ndeveloping part of the wood, use it to enhance the biodiversity\nof the remaining wood, and improve access for local residents\nSo they can enjoy the benefits more - which would deliver\ngreater social benefit than the initial proposal.",
+    "type": "text",
+    "page": 29,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 145,
+    "text": "TRY TO THINK USING\nDIFFERENT FRAMES / LOOK\nFOR “ROBUST” FRAMES",
+    "type": "text",
+    "page": 30,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 146,
+    "text": "HOW TO CONS\n\nUO\n\nR/CR\n\nAT\n\nDIFF\n\nR\n\nNT FRAM\n\nS? TRY TO: 2. Look for other points of view 3, Role-play your competitors 4. Look for diversity 5. Use brainstorming techniques 8. Think using different metaphors 9. Investigate about how others solved similar problems",
+    "type": "section-header",
+    "page": 31,
+    "entities": [
+      {
+        "text": "2.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "3,",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "4.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "5.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "8.",
+        "label": "CARDINAL"
+      },
+      {
+        "text": "9.",
+        "label": "CARDINAL"
+      }
+    ],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 147,
+    "text": "PROSP\n\nCT TH\n\nORY AN\n\nD FRAMING: SUMMARY * We always frame, in one way or another, our decisions * This is not only unavoidable, it is also useful, as it helps us to reduce\nthe complexity of choices",
+    "type": "section-header",
+    "page": 32,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 148,
+    "text": "* However, we have to be very careful about how we frame problems\nfor ourselves or others, because our frames have a large influence\non our decisions",
+    "type": "list-item",
+    "page": 32,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 149,
+    "text": "* We need to be particularly careful if our frame leads to thinking in\nterms of «gains» or in terms of «losses», because that will influence\nour attitude towards uncertainty and risk",
+    "type": "list-item",
+    "page": 32,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 150,
+    "text": "* We have to be careful not to value too much what we already have,\nor the situation we're in, or the status quo, in relation to possible\nchanges",
+    "type": "list-item",
+    "page": 32,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 151,
+    "text": "* We have to be careful about what references / expectations we use\nin order to evaluate our potential outcomes",
+    "type": "list-item",
+    "page": 32,
+    "entities": [],
+    "user_id": "mouad"
+  },
+  {
+    "filename": "02 - Prospect Theory and Framing Problems.pdf",
+    "chunk_id": 152,
+    "text": "O@OQ)",
+    "type": "picture",
+    "page": 32,
+    "entities": [],
+    "user_id": "mouad"
+  }
+]

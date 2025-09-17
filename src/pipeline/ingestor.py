@@ -1,242 +1,130 @@
 from pathlib import Path
 from typing import List, Dict
-from pypdf import PdfReader
-from docx import Document
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from semantic_text_splitter import TextSplitter
 
 from src.core.utils import FileManager
-
-
+from src.modules.layout_extractor import LayoutExtractor
+from src.modules.document_loader import DocumentLoader
+from src.core.block_processor import BlockProcessor
+from src.core.chunk_builder import ChunkBuilder
+from src.modules.entity_extractor import EntityExtractor
 class Ingestor:
     """
-    The Ingestor class is the first stage in a multi-user RAG pipeline.
+    Ingestor
+    --------
+    Loads documents for a user, extracts layout blocks, removes repeated headers/footers,
+    splits them into semantic chunks, and saves the chunks as JSON.
 
-    It handles the ingestion of documents for a specific user by:
-      - Reading supported documents (.txt, .pdf, .docx) from data/<user_id>/
-      - Splitting the content into smaller overlapping chunks
-      - Saving the chunks into a JSON file tagged with that user_id
+    - If mode = "layout": uses LayoutExtractor to get structured blocks
+      (with page-header/footer types) then cleans them with BlockProcessor.
+    - If mode = "raw": uses DocumentLoader to just get raw text.
 
-    Each chunk will later be embedded and stored in the vector database.
-    Using `user_id` ensures each user’s data stays completely separated.
+    This keeps user data separated via user_id.
     """
 
-
-
-    def __init__(self, config:dict, file_manager: FileManager, logger, user_id:str):
-        """
-        Initialize the Ingestor for a specific user.
-
-        This sets up:
-          - The input data directory for that user
-          - The output chunks file path
-          - The text splitter configuration (chunk size & overlap)
-
-        Args:
-            config (dict): Settings loaded from config.yaml. Must include:
-                - paths.data_dir: base directory for user documents
-                - paths.chunks_file: base path for output chunks
-                - chunking.chunk_size / chunk_overlap
-            file_manager (FileManager): Utility class to read/write files.
-            logger (Logger): Loguru logger instance to log messages.
-            user_id (str): Unique identifier for the current user.
-        """
+    def __init__(
+        self,
+        config: dict,
+        file_manager: FileManager,
+        layout_extractor: LayoutExtractor,
+        document_loader: DocumentLoader,
+        block_processor: BlockProcessor,
+        entity_extractor: EntityExtractor,
+        chunk_builder: ChunkBuilder,
+        logger,
+        user_id: str,
+        mode: str = "layout",
+    ):
         self.logger = logger
-        self.files=file_manager
+        self.files = file_manager
+        self.layout = layout_extractor
+        self.loader = document_loader
+        self.proc = block_processor
+        self.entities = entity_extractor
+        self.chunker = chunk_builder
         self.user_id = user_id
+        self.mode = mode
 
-        paths = config['paths']
-        self.data_dir = Path(paths['data_dir'])/user_id
-        self.chunks_file = Path(paths['chunks_file']).with_name(f"chunks_{user_id}.json")
-
-        ch = config["chunking"]
-        self.splitter = RecursiveCharacterTextSplitter(
-            chunk_size =ch['chunk_size'],
-            chunk_overlap=ch['chunk_overlap']
-        )
-
-        self.logger.info('Ingestor initialized for user {user_id}.')
-
-
-    #---------------Reading------------
+        paths = config["paths"]
+        self.data_dir = Path(paths["data_dir"]) / user_id
+        self.chunks_file = Path(paths["chunks_file"]).with_name(f"chunks_{user_id}.json")
 
 
 
-    def _read_txt(self, path:Path) ->str:
-        """
-        Read the content of a .txt file.
+    # --------------------
 
-        Args:
-            path (Path): Path to the .txt file.
-
-        Returns:
-            str: The text content of the file.
-        """
-        return path.read_text(encoding='utf-8', errors='ignore')
-    
-
-
-
-    def _read_pdf(self, path:Path) -> str:
-        """
-        Read the content of a .pdf file.
-
-        Args:
-            path (Path): Path to the .pdf file.
-
-        Returns:
-            str: The extracted text content of the file.
-        """
-        text = []
-        reader = PdfReader(str(path))
-        for page in reader.pages:
-            text.append(page.extract_text() or '')
-        return '\n'. join(text)
-    
-
-
-
-    def _read_docx(self, path:Path) -> str:
-        """
-        Read the content of a .docx file.
-
-        Args:
-            path (Path): Path to the .docx file.
-
-        Returns:
-            str: The text content of the document.
-        """
-        doc = Document(str(path))
-        return '\n'. join(p.text for p in doc.paragraphs)
-    
-
-
-    #----------------Ingest---------------
-
-
-
-
-    def load_documents(self) -> List[Dict]:
-        """
-        Load all user documents from data/<user_id>/.
-
-        This scans the user's data folder, reads all supported files,
-        and attaches the user_id to each loaded document.
-
-        Supported formats: .txt, .pdf, .docx
-
-        Returns:
-            List[Dict]: A list of document dictionaries:
-                [
-                  {"filename": str, "content": str, "user_id": str},
-                  ...
-                ]
-        """
-
-        docs = []
+    def load_documents(self) -> List[Path]:
         if not self.data_dir.exists():
-            self.logger.warning(f"No data folder found for user {self.user_id}")
+            self.logger.warning(f"No data folder for user {self.user_id}")
             return []
-        for fp in self.data_dir.glob('*'):
-            if not fp.is_file():
-                continue
-            ext = fp.suffix.lower()
-            try:
-                if ext ==".txt":
-                    content = self._read_txt(fp)
-                elif ext ==".pdf":
-                    content = self._read_pdf(fp)
-                elif ext ==".docx":
-                    content = self._read_docx(fp)
-                else:
-                    continue
-                if content.strip():
-                    docs.append({'filename': fp.name, "content": content, "user_id": self.user_id})
-                    self.logger.info(f"Loaded: {fp.name}")
-            except Exception as e:
-                self.logger.error(f"Error reading {fp.name} : {e}")
-        self.logger.info(f'Total documents for {self.user_id}: {len(docs)}')
-        return docs
-    
+        return [fp for fp in self.data_dir.glob("*") if fp.is_file()]
 
+    def process_blocks(self, docs: List[Path]) -> List[Dict]:
+        blocks = []
 
-
-
-    #-----------------Chunk---------------
-
-
-
-    def split_into_chunks(self, documents:List[Dict]) ->List[Dict]:
-        """
-        Split loaded documents into smaller overlapping text chunks.
-
-        This improves retrieval accuracy during semantic search.
-
-        Args:
-            documents (List[Dict]): The list of loaded documents.
-
-        Returns:
-            List[Dict]: A list of chunk dictionaries:
-                [
-                  {
-                    "filename": str,
-                    "chunk_id": int,
-                    "text": str,
-                    "user_id": str
-                  },
-                  ...
-                ]
-        """
-
-        chunks = []
-
-        for doc in documents:
-            parts = self.splitter.split_text(doc['content'])
-            for i, text in enumerate(parts):
-                chunks.append({
-                    'filename': doc['filename'],
-                    'chunk_id':i,
-                    'text': text,
-                    "user_id":self.user_id
+        if self.mode == "layout":
+            for doc in docs:
+                self.logger.info(f"Extracting layout from {doc.name}")
+                b = self.layout.extract(doc)
+                for blk in b:
+                    blk["filename"] = doc.name
+                    blk["user_id"] = self.user_id
+                blocks.extend(b)
+        else:
+            # raw text: create 1 block per doc
+            for doc in docs:
+                text = self.loader.load(doc)
+                blocks.append({
+                    "filename": doc.name,
+                    "text": text,
+                    "type": "text",
+                    "page": 0,
+                    "user_id": self.user_id
                 })
-        self.logger.info(f"Created {len(chunks)} chunks for {self.user_id}")
+
+        # Clean headers/footers
+        blocks = self.proc.remove_page_headers_footers(blocks)
+
+        # Add entities
+        blocks = self.entities.add_entities(blocks)
+
+        return blocks
+
+    def build_chunks(self, blocks: List[Dict]) -> List[Dict]:
+        """
+        Build semantic chunks from blocks after cleaning and entity annotation.
+        Also removes near-duplicate chunks and merges small ones on same page.
+        """
+        # Step 1: remove near duplicates (within ±10 window)
+        blocks = self.chunker.remove_near_duplicates(blocks, windows=10)
+
+        # Step 2: merge small chunks (same page only)
+        blocks = self.chunker.merge_small_blocks(blocks, min_words=20)
+
+        # Step 3: build final chunks with incremental IDs
+        chunks = []
+        cid = 0
+        for b in blocks:
+            for part in self.chunker.split_text(b["text"]):
+                chunks.append({
+                    "filename": b["filename"],
+                    "chunk_id": cid,
+                    "text": part,
+                    "type": b.get("type", "text"),
+                    "page": b.get("page", 0),
+                    "entities": b.get("entities", []),
+                    "user_id": self.user_id,
+                })
+                cid += 1
         return chunks
-    
-
-
-
-    #--------------------Save----------------
-
-
-
-    def save_chunks(self, chunks:List[Dict]):
-
-        
-        """
-        Save all generated chunks to storage/chunks_<user_id>.json
-
-        Args:
-            chunks (List[Dict]): The list of chunks to save.
-        """
-
-        self.files.save_json(chunks, self.chunks_file)
-        self.logger.info(f"Saved chunks for {self.user_id} to {self.chunks_file}")
-    
-
 
     def run(self):
-        """
-        Execute the full ingestion pipeline for this user.
-
-        Steps:
-          1. Load documents from data/<user_id>/
-          2. Split them into smaller chunks
-          3. Save all chunks into storage/chunks_<user_id>.json
-
-        This must be run before indexing or searching.
-        """
-        
-        self.logger.info('Starting ingestion for user {self.user_id}...')
+        self.logger.info(f"Starting ingestion for user {self.user_id} ({self.mode} mode)...")
         docs = self.load_documents()
-        chunks = self.split_into_chunks(docs)
-        self.save_chunks(chunks)
-        self.logger.info("Ingestion finished for user {self.user_id}")
+        blocks = self.process_blocks(docs)
+        chunks = self.build_chunks(blocks)
+        self.files.save_json(chunks, self.chunks_file)
+        self.logger.info(f"Saved {len(chunks)} chunks for {self.user_id}")
+
+
+

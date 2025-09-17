@@ -356,3 +356,162 @@
 2025-09-15 15:52:57.430 | INFO     | src.pipeline.answerer:run:104 -  Generating answerfor user mouad for: what is the difference between fixed and growth mindset in point of view of carol dweck?
 2025-09-15 15:52:57.479 | INFO     | src.pipeline.searcher:search:96 - Found 3 results for: what is the difference between fixed and growth mindset in point of view of carol dweck?
 2025-09-15 15:53:01.204 | INFO     | src.pipeline.answerer:run:111 -  Answer generated for user {self.user_id}.
+2025-09-15 19:24:48.018 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 19:24:48.025 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 19:26:44.511 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-15 19:26:44.512 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-15 19:26:44.559 | INFO     | src.pipeline.ingestor:__init__:60 - Ingestor initialized for user {user_id}.
+2025-09-15 19:26:44.559 | INFO     | src.pipeline.ingestor:run:336 - Starting ingestion for user {self.user_id}...
+2025-09-15 19:26:44.780 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 01 - Introduction to Decision Making.pdf
+2025-09-15 19:26:45.185 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 02 - Prospect Theory and Framing Problems.pdf
+2025-09-15 19:26:45.485 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 03 - Confirmation Bias and Availability Bias.pdf
+2025-09-15 19:26:45.715 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 04 - Anchoring and Sunk Cost Bias.pdf
+2025-09-15 19:26:45.911 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 05 - Choice Overload and Salience.pdf
+2025-09-15 19:26:46.120 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 06 - Need-based Motivation Theories.pdf
+2025-09-15 19:26:46.732 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 07 - Extrinsic Motivation.pdf
+2025-09-15 19:26:46.879 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 08 - Intrinsic Motivation (introduction).pdf
+2025-09-15 19:26:47.139 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 09 - Autonomy and HRM.pdf
+2025-09-15 19:26:47.288 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 10 - The Valve Case Study.pdf
+2025-09-15 19:26:47.568 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 11 - Job Crafting.pdf
+2025-09-15 19:26:47.794 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 12 - Goal Setting.pdf
+2025-09-15 19:26:48.310 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 13 - Growth.pdf
+2025-09-15 19:26:48.554 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 14 - Conformity.pdf
+2025-09-15 19:26:49.027 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 15 - Social Influence and Persuasion.pdf
+2025-09-15 19:26:49.276 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 16 - Reciprocity.pdf
+2025-09-15 19:26:49.378 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 17 - Social Influence and HRM (examples).pdf
+2025-09-15 19:26:49.800 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 18 - Group Pathologies.pdf
+2025-09-15 19:26:50.273 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 19 - Techniques for Group Effectiveness.pdf
+2025-09-15 19:26:50.659 | INFO     | src.pipeline.ingestor:load_documents:248 - Loaded: 20 - Leadership.pdf
+2025-09-15 19:26:50.659 | INFO     | src.pipeline.ingestor:load_documents:251 - Total documents for mouad: 20
+2025-09-15 19:26:50.886 | INFO     | src.pipeline.ingestor:split_into_chunks:299 - Created 220 chunks for mouad
+2025-09-15 19:26:50.886 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-15 19:26:50.890 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks_mouad.json
+2025-09-15 19:26:50.890 | INFO     | src.pipeline.ingestor:save_chunks:320 - Saved chunks for mouad to storage\chunks_mouad.json
+2025-09-15 19:26:50.890 | INFO     | src.pipeline.ingestor:run:340 - Ingestion finished for user {self.user_id}
+2025-09-16 23:16:38.706 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-16 23:16:38.712 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-16 23:16:38.713 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-16 23:18:02.337 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-16 23:18:02.345 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-16 23:18:02.347 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-16 23:19:43.470 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-16 23:19:43.477 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-16 23:19:43.479 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-16 23:20:45.529 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-16 23:20:45.536 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-16 23:20:45.538 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-16 23:20:45.613 | INFO     | src.pipeline.ingestor:run:102 - Starting ingestion for user mouad (layout mode)...
+2025-09-16 23:20:45.616 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 01 - Introduction to Decision Making.pdf
+2025-09-16 23:21:15.009 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 02 - Prospect Theory and Framing Problems.pdf
+2025-09-16 23:21:46.239 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 03 - Confirmation Bias and Availability Bias.pdf
+2025-09-16 23:22:29.185 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 04 - Anchoring and Sunk Cost Bias.pdf
+2025-09-16 23:22:56.152 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 05 - Choice Overload and Salience.pdf
+2025-09-16 23:23:21.880 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 06 - Need-based Motivation Theories.pdf
+2025-09-16 23:23:46.470 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 07 - Extrinsic Motivation.pdf
+2025-09-16 23:25:00.980 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 08 - Intrinsic Motivation (introduction).pdf
+2025-09-16 23:25:12.580 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 09 - Autonomy and HRM.pdf
+2025-09-16 23:25:49.733 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 10 - The Valve Case Study.pdf
+2025-09-16 23:26:08.619 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 11 - Job Crafting.pdf
+2025-09-16 23:26:43.079 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 12 - Goal Setting.pdf
+2025-09-16 23:27:08.562 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 13 - Growth.pdf
+2025-09-16 23:28:11.363 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 14 - Conformity.pdf
+2025-09-16 23:28:50.492 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 15 - Social Influence and Persuasion.pdf
+2025-09-16 23:29:39.635 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 16 - Reciprocity.pdf
+2025-09-16 23:30:12.241 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 17 - Social Influence and HRM (examples).pdf
+2025-09-16 23:30:25.576 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 18 - Group Pathologies.pdf
+2025-09-16 23:31:29.416 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 19 - Techniques for Group Effectiveness.pdf
+2025-09-16 23:32:39.525 | INFO     | src.pipeline.ingestor:split_into_chunks:66 - Extracting layout from 20 - Leadership.pdf
+2025-09-16 23:33:24.168 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-16 23:33:24.205 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks\chunks_mouad.json
+2025-09-16 23:33:24.206 | INFO     | src.pipeline.ingestor:run:106 - Saved 5518 chunks for mouad
+2025-09-17 11:28:53.711 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-17 11:28:53.720 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 11:28:53.721 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 11:28:53.788 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 11:31:35.660 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-17 11:31:35.662 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 11:31:35.664 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 11:31:35.692 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 11:31:37.054 | INFO     | src.pipeline.ingestor:run:122 - Starting ingestion for user mouad (layout mode)...
+2025-09-17 11:31:37.056 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 01 - Introduction to Decision Making.pdf
+2025-09-17 11:32:07.918 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 02 - Prospect Theory and Framing Problems.pdf
+2025-09-17 11:32:40.255 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 03 - Confirmation Bias and Availability Bias.pdf
+2025-09-17 11:33:24.472 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 04 - Anchoring and Sunk Cost Bias.pdf
+2025-09-17 11:33:52.547 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 05 - Choice Overload and Salience.pdf
+2025-09-17 11:34:19.142 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 06 - Need-based Motivation Theories.pdf
+2025-09-17 11:34:44.478 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 07 - Extrinsic Motivation.pdf
+2025-09-17 11:36:01.942 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 08 - Intrinsic Motivation (introduction).pdf
+2025-09-17 11:36:14.025 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 09 - Autonomy and HRM.pdf
+2025-09-17 11:36:52.555 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 10 - The Valve Case Study.pdf
+2025-09-17 11:37:12.156 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 11 - Job Crafting.pdf
+2025-09-17 11:37:48.472 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 12 - Goal Setting.pdf
+2025-09-17 11:38:16.334 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 13 - Growth.pdf
+2025-09-17 11:39:25.307 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 14 - Conformity.pdf
+2025-09-17 11:40:07.963 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 15 - Social Influence and Persuasion.pdf
+2025-09-17 11:41:00.705 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 16 - Reciprocity.pdf
+2025-09-17 11:41:35.292 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 17 - Social Influence and HRM (examples).pdf
+2025-09-17 11:41:49.393 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 18 - Group Pathologies.pdf
+2025-09-17 11:42:56.480 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 19 - Techniques for Group Effectiveness.pdf
+2025-09-17 11:44:09.386 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 20 - Leadership.pdf
+2025-09-17 12:16:31.942 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-17 12:16:31.944 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:16:31.945 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:16:31.973 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:16:33.294 | INFO     | src.pipeline.ingestor:run:122 - Starting ingestion for user mouad (layout mode)...
+2025-09-17 12:16:33.295 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 01 - Introduction to Decision Making.pdf
+2025-09-17 12:17:02.218 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 02 - Prospect Theory and Framing Problems.pdf
+2025-09-17 12:17:32.811 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 03 - Confirmation Bias and Availability Bias.pdf
+2025-09-17 12:18:14.796 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 04 - Anchoring and Sunk Cost Bias.pdf
+2025-09-17 12:18:41.247 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 05 - Choice Overload and Salience.pdf
+2025-09-17 12:19:06.551 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 06 - Need-based Motivation Theories.pdf
+2025-09-17 12:19:30.410 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 07 - Extrinsic Motivation.pdf
+2025-09-17 12:20:44.446 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 08 - Intrinsic Motivation (introduction).pdf
+2025-09-17 12:20:55.851 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 09 - Autonomy and HRM.pdf
+2025-09-17 12:21:32.436 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 10 - The Valve Case Study.pdf
+2025-09-17 12:21:50.914 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 11 - Job Crafting.pdf
+2025-09-17 12:22:24.599 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 12 - Goal Setting.pdf
+2025-09-17 12:22:50.009 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 13 - Growth.pdf
+2025-09-17 12:23:52.561 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 14 - Conformity.pdf
+2025-09-17 12:24:31.407 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 15 - Social Influence and Persuasion.pdf
+2025-09-17 12:25:20.164 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 16 - Reciprocity.pdf
+2025-09-17 12:25:52.423 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 17 - Social Influence and HRM (examples).pdf
+2025-09-17 12:26:05.654 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 18 - Group Pathologies.pdf
+2025-09-17 12:27:08.855 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 19 - Techniques for Group Effectiveness.pdf
+2025-09-17 12:28:18.084 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 20 - Leadership.pdf
+2025-09-17 12:32:55.519 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-17 12:32:55.521 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:32:55.522 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:32:55.548 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:32:56.732 | INFO     | src.pipeline.ingestor:run:122 - Starting ingestion for user mouad (layout mode)...
+2025-09-17 12:32:56.733 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 01 - Introduction to Decision Making.pdf
+2025-09-17 12:33:25.385 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 02 - Prospect Theory and Framing Problems.pdf
+2025-09-17 12:39:17.537 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-17 12:39:17.539 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:39:17.541 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:39:17.567 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:39:18.728 | INFO     | src.pipeline.ingestor:run:122 - Starting ingestion for user mouad (layout mode)...
+2025-09-17 12:39:18.729 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 01 - Introduction to Decision Making.pdf
+2025-09-17 12:39:47.104 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 02 - Prospect Theory and Framing Problems.pdf
+2025-09-17 12:40:27.747 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-17 12:40:27.751 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks\chunks_mouad.json
+2025-09-17 12:40:27.752 | INFO     | src.pipeline.ingestor:run:127 - Saved 238 chunks for mouad
+2025-09-17 12:46:11.685 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-17 12:46:11.687 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:46:11.688 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:46:11.715 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:46:12.873 | INFO     | src.pipeline.ingestor:run:122 - Starting ingestion for user mouad (layout mode)...
+2025-09-17 12:46:12.874 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 01 - Introduction to Decision Making.pdf
+2025-09-17 12:46:41.143 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 02 - Prospect Theory and Framing Problems.pdf
+2025-09-17 12:47:21.790 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-17 12:47:21.795 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks\chunks_mouad.json
+2025-09-17 12:47:21.795 | INFO     | src.pipeline.ingestor:run:127 - Saved 251 chunks for mouad
+2025-09-17 12:59:54.904 | INFO     | src.core.Logger:__init__:44 - Logger initialized at storage\logs\logging_project.log
+2025-09-17 12:59:54.905 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:59:54.907 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:59:54.934 | INFO     | src.core.utils:load_config:66 - Loaded config from: config\config.yaml
+2025-09-17 12:59:56.118 | INFO     | src.pipeline.ingestor:run:122 - Starting ingestion for user mouad (layout mode)...
+2025-09-17 12:59:56.119 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 01 - Introduction to Decision Making.pdf
+2025-09-17 13:00:24.455 | INFO     | src.pipeline.ingestor:process_blocks:67 - Extracting layout from 02 - Prospect Theory and Framing Problems.pdf
+2025-09-17 13:01:05.103 | INFO     | src.core.utils:ensure_dir:41 - Ensured directory : <class 'pathlib._local.Path'>
+2025-09-17 13:01:05.106 | INFO     | src.core.utils:save_json:88 - Saved Json to: storage\chunks\chunks_mouad.json
+2025-09-17 13:01:05.106 | INFO     | src.pipeline.ingestor:run:127 - Saved 153 chunks for mouad

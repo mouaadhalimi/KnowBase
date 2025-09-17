@@ -9,7 +9,7 @@ stages:
     - src/main.py
     - src/pipeline/ingestor.py
     outs:
-    - storage/chunks_${user_id}.json
+    - storage/chunks/chunks_${user_id}.json
   index:
     cmd: python -m src.main index ${user_id}
     deps:
@@ -18,7 +18,7 @@ stages:
     - src/core/utils.py
     - src/main.py
     - src/pipeline/indexer.py
-    - storage/chunks_${user_id}.json
+    - storage/chunks/chunks_${user_id}.json
     outs:
     - storage/vector_db
   search:
